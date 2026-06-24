@@ -158,10 +158,10 @@ const channelList = async () => {
             </div>
 
 
-            {/* <div style={{ display: 'flex', justifyContent: 'space-around' }} className="midHero">
+             <div style={{ display: 'flex', justifyContent: 'space-around' }} className="midHero">
                 <button className="btn"> <Link to="/addchannels">Add Channels</Link></button>
                 <button className="btn"><Link to="/modify">Modify List</Link></button>
-                 </div>/ */}
+                 </div>/ 
             {
                 channelLength ? <h1>Total Available Channels:{channelLength}</h1> : <h1>Total Available Channels:{channelLength}</h1>
             }
