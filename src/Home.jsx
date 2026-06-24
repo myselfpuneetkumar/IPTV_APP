@@ -22,10 +22,10 @@ export default function Home({localPath}) {
     // const [videoData, setVideoData] = useState('https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8')
     const [videoData, setVideoData] = useState('test.m3u8')
         // let localnPath = localPath;
-        // const url = "http://localhost:3000/channels";
+        const url = "http://localhost:3000/channels";
         // const url = "http://"+localPath+"/channels";
         // const url = "http://192.168.183.30:3000/channels"
-        const url = "https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json"
+        // const url = "https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json"
     // let  url = localPath;
 
     // useEffect(()=>{
@@ -42,10 +42,10 @@ const channelList = async () => {
 
         let response = await fetch(url);
         response = await response.json();
-        setChannels(response.channels);
+        setChannels(response);
         setLoading(true);
         console.log(response.length);
-        setChannelLengths(response.channels.length)
+        setChannelLengths(response.length)
 
 
 

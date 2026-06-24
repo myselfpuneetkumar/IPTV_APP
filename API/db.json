@@ -1,0 +1,204 @@
+{
+  "channels": [
+    {
+      "name": "pogo",
+      "category": "Kids",
+      "link": "google",
+      "logo": "png",
+      "type": "paid",
+      "id": "_NWleSItYz4"
+    },
+    {
+      "name": "star gold",
+      "logo": "no",
+      "category": "Cartoon",
+      "type": "Free",
+      "link": "ht",
+      "id": "7fGW12jDyLo"
+    },
+    {
+      "name": "Star Gold ",
+      "logo": "Ww",
+      "category": "Movies",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a04q/index.m3u8",
+      "id": "hl8ew_IuoJI"
+    },
+    {
+      "name": "star gold HD",
+      "logo": "no",
+      "link": "http://202.70.146.135:8000/play/a02a/index.m3u8",
+      "id": "MOD2bWJsY9U"
+    },
+    {
+      "name": "Star Gold 2",
+      "logo": "no",
+      "category": "Movies",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a02d/index.m3u8",
+      "id": "yy07Ongu3iI"
+    },
+    {
+      "name": "History tv 18",
+      "logo": "No",
+      "category": "Education",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a065/index.m3u8",
+      "id": "vliIWjHXtRE"
+    },
+    {
+      "name": "Colors Cineplex HD",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a04n/index.m3u8",
+      "id": "uXfIRohii_E"
+    },
+    {
+      "name": "Colors Cineplex Bollywood ",
+      "logo": "No",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a058/index.m3u8",
+      "id": "xIdhM1kMLG8"
+    },
+    {
+      "name": "Movies NOW HD",
+      "logo": "No",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a057/index.m3u8",
+      "id": "-uAk0ZMVXYs"
+    },
+    {
+      "name": "Zee TV HD",
+      "logo": "",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a04g/index.m3u8",
+      "id": "mcYawhVKaTI"
+    },
+    {
+      "name": "Star Gold Romance ",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a044/index.m3u8",
+      "id": "27QeqSS1H0Y"
+    },
+    {
+      "name": "Star Gold Select HD",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a068/index.m3u8",
+      "id": "seEUmA099bU"
+    },
+    {
+      "name": "Sony Pix HD",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a06p/index.m3u8",
+      "id": "WOKAQ_AQNhc"
+    },
+    {
+      "name": "Star Movies HD",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a06r/index.m3u8",
+      "id": "bILMnyePK7Y"
+    },
+    {
+      "name": "& pictures ",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a06b/index.m3u8",
+      "id": "aaAw1gH_gLE"
+    },
+    {
+      "name": "&TV",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a06c/index.m3u8",
+      "id": "7R8vVOjrfnM"
+    },
+    {
+      "name": "Discovery HD",
+      "category": "Education",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a05z/index.m3u8",
+      "id": "D4Ct4Z8qQRI"
+    },
+    {
+      "name": "Romedy ",
+      "category": "Education",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a05x/index.m3u8",
+      "id": "9Fpe8lKuu8c"
+    },
+    {
+      "name": "Eurosport HD",
+      "category": "Sports",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a05s/index.m3u8",
+      "id": "qfq-Tqabom4"
+    },
+    {
+      "name": "National Geographic channel HD",
+      "category": "Education",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a05o/index.m3u8",
+      "id": "8thrTvOcgV0"
+    },
+    {
+      "name": "Wild HD",
+      "category": "Education",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a05j/index.m3u8",
+      "id": "NXo_9BATCeE"
+    },
+    {
+      "name": "Sonic ",
+      "category": "Cartoon",
+      "link": "http://202.70.146.135:8000/play/a02t/index.m3u8",
+      "id": "rvJTLkFI8d4"
+    },
+    {
+      "name": "Sony Entertainment Television HD",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a005/index.m3u8",
+      "id": "_Gp6tdlcSBk"
+    },
+    {
+      "name": "Star Plus HD",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a009/index.m3u8",
+      "id": "9mnlpObgYOg"
+    },
+    {
+      "name": "Star Gold Thrills HD",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a024/index.m3u8",
+      "id": "DxQnH2lz7Ag"
+    },
+    {
+      "name": "Sony SAB HD",
+      "category": "Serials",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a025/index.m3u8",
+      "id": "A-jevgQZUEg"
+    },
+    {
+      "name": "Colors HD ",
+      "category": "Serials",
+      "link": "http://202.70.146.135:8000/play/a00b/index.m3u8",
+      "id": "1DIHhGJw8xo"
+    },
+    {
+      "name": "Nick jr",
+      "category": "Cartoon",
+      "type": "Paid",
+      "link": "http://202.70.146.135:8000/play/a02n/index.m3u8",
+      "id": "oV81goaRIeg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
