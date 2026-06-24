@@ -24,7 +24,7 @@ export default function Modify() {
             // body:JSON.stringify()
         })
         // response = await response.json();
-        await alert('deleted')
+        // await alert('deleted')
         channelList();
         // console.log(id)
 
