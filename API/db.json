@@ -1065,7 +1065,7 @@
     },
     {
       "name": "Zee Cinema HD (1080p)",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zee_Cinema_2025.svg",
       "category": "",
       "type": "Free",
       "link": "http://103.72.101.252:8080/live/165.m3u8",
@@ -1073,7 +1073,7 @@
     },
     {
       "name": "Zee Dil Se (1080p)",
-      "logo": "",
+      "logo": "https://img-cdn.publive.online/filters:format(webp)/bollyy/media/post_attachments/f23f1d2c-b86.jpg",
       "category": "",
       "type": "Free",
       "link": "https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8",
