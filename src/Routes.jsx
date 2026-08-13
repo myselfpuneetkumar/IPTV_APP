@@ -7,11 +7,18 @@ import ImportM3U from "./Import";
 import Video from "./Video";
 import Scroll from "./Scroll";
 import Sort from "./Sorting";
+import Footer from "./Footer";
+import Header from "./Header";
+import Live from "./Live";
 
-export default function RoutesPath(){
-    return(
-        <div style={{padding:'20px'}}>
-             <h1 >IPTV <sub style={{ fontSize: '20px' }}>V 1.0</sub> Channel List</h1>
+export default function RoutesPath() {
+    return (
+        <>  
+        <Header />
+
+        
+              <div>
+            <h1 style={{padding:'0',margin:'0'}}>IPTV <sub style={{ fontSize: '20px' }}>V 1.0</sub> Channel List</h1>
             <Routes >
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/modify" element={<Modify />}></Route>
@@ -21,8 +28,13 @@ export default function RoutesPath(){
                 <Route path="/video" element={<Video />} />
                 <Route path="/scroll" element={<Scroll />} />
                 <Route path="/sorts" element={<Sort />} />
+                <Route path="/live" element={<Live />} />
             </Routes>
-           
+
+            <Footer />
+
+
         </div>
+        </>
     )
 }

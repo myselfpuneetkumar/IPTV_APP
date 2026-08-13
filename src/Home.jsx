@@ -13,14 +13,14 @@ export default function Home({localPath}) {
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [seachingData, setSearchingData] = useState('')
     const [playControl, setPlayControl] = useState(true)
+    // const [path,setPath] = useState('ok')
     // const[url,setUrl] = useState("http://192.168.183.30:3000/channels")
     const videoref = useRef(null);
 
-    
 
 
     // const [videoData, setVideoData] = useState('https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8')
-    const [videoData, setVideoData] = useState('test.m3u8')
+    const [videoData, setVideoData] = useState('../public/test.mp4')
         // let localnPath = localPath;
         const url = "http://localhost:3000/channels";
         // const url = "http://"+localPath+"/channels";
@@ -112,6 +112,21 @@ const channelList = async () => {
     }, [])
 
 
+    const copyPath = async(e)=>{
+        
+        // setPath(e.target.value);
+        try {
+            await navigator.clipboard.writeText(e)
+            console.log(e);
+            alert('Video URL copied to Clipboard');
+            
+        } catch (error) {
+            console.log("failed to copy",error)
+            
+        }
+    }
+
+
 
 
     return (
@@ -120,15 +135,17 @@ const channelList = async () => {
 
             {/* <Video /> */}
             {
-                videoData.endsWith('.m3u8') ?
+                // videoData.endsWith('.m3' || videoData.endsWith('.m3u8')) ?
+                videoData ?
                     // videoData ? 
                     <div className="vidControls">
-                        <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}>
+                        {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
+                        <video src={videoData} controls autoPlay height="auto" width="auto" ref={videoref}>
                         </video>
 
 
 
-                        <h2 style={{ margin: '10px' }}>{chName}</h2><div>
+                        <h2 style={{ margin: '10px' }}>{chName} <span>CH-{indexVal + 1}</span></h2><div>
                             <button onClick={prevPlay}><img src="./public/prev.png" alt="" title="Previous Play"/></button>
                             <button onClick={pausePlay}>{playControl ? <img src="./public/play.png" alt="no image" title="Pause/Play"  /> : <img src="./public/pause.png" alt="" />}</button>
 
@@ -143,6 +160,7 @@ const channelList = async () => {
                          <h2 style={{ margin: '10px' }}>{chName}</h2>
                         <h2>This Channel is temporary out of service please select other one</h2>
                         <div>
+                            <span>{indexVal}</span>
                             <button onClick={prevPlay}><img src="./public/prev.png" alt=""  title="Previous Play" /></button>
                             <button onClick={nextPlay}><img src="./public/nextplay.png" alt="" title="Play Next"/></button>
                         </div>
@@ -158,7 +176,7 @@ const channelList = async () => {
             </div>
 
 
-             <div style={{ display: 'flex', justifyContent: 'space-around' }} className="midHero">
+             <div style={{ display: 'flex', justifyContent: 'space-around' }} className="midHero" className="min-h-screen bg-gray-950 text-white">
                 <button className="btn"> <Link to="/addchannels">Add Channels</Link></button>
                 <button className="btn"><Link to="/modify">Modify List</Link></button>
                  </div>/ 
@@ -176,12 +194,13 @@ const channelList = async () => {
                             filteredChannels && filteredChannels.map((data, index) => {
                                 return (
                                     <div className="banner">
-                                        <h5>{index}</h5>
+                                        <h2>{index+1}</h2>
                                         <img src={data.logo || defImage} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" />
                                         <h1 key={index}> {data.name}</h1>
                                         <h2>Category :{data.category}</h2>
                                         <h2>Type:<br />{data.type}</h2>
-                                        <Link to={data.link} target="_blank">WATCH now</Link><br />
+                                        <button style={{ margin:"2px"}}onClick={()=>copyPath(data.link)}>Copy </button> | 
+                                        <Link style={{color:"black"}}to={data.link} target="_blank"> WATCH now</Link><br />
                                         <button onClick={() => watchLive(data.link, data.name, index)}><img src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
 
                                     </div>

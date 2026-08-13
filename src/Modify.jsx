@@ -18,6 +18,7 @@ export default function Modify() {
         channelList();
     }, [])
 
+    // https://files.catbox.moe/j54cjt.mp4
     const deleteData = async(id)=>{
         let response = fetch(url+id,{
             method:'delete',

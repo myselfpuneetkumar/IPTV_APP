@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 import RoutesPath from './Routes'
+import Footer from './Footer'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
    
 
     <RoutesPath />
+    {/* <Footer /> */}
   </div>
   )
 }
