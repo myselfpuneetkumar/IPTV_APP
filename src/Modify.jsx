@@ -6,7 +6,9 @@ export default function Modify() {
     let count = 1;
     const navigate = useNavigate();
 
-    const url = "http://localhost:3000/channels/";
+    // const url = "http://localhost:3000/channels/";
+            const url = "http://192.168.48.30:3000/channels"
+
 
     const channelList = async () => {
 
@@ -25,7 +27,7 @@ export default function Modify() {
             // body:JSON.stringify()
         })
         // response = await response.json();
-        // await alert('deleted')
+        await alert('deleted')
         channelList();
         // console.log(id)
 
@@ -61,15 +63,25 @@ export default function Modify() {
                                <tr>
                                     <td>{count++}</td>
                                     <td>{data.name}</td>
-                                    <td>{data.category}</td>
-                                    <td><img src={data.logo} alt="" height='50px' width='50px'/></td>
+                                    {/* <td>{data.category}</td> */}
+                                    {/* <td><img src={data.logo} alt="" height='50px' width='50px'/></td> */}
                                     {/* <td max={10}>{data.logo}</td> */}
-                                    <td >{data.type}</td>
-                                    <td >{data.name}</td>
+                                   <td>
+    <video
+        src={data.link}
+        controls
+        preload="none"
+        width="300"
+        height="200"
+    />
+</td>
+                                    {/* <td >{data.type}</td> */}
+                                    {/* <td >{data.name}</td> */}
                                     <td>
                                         <button onClick={()=>deleteData(data.id)} style={{color:'red'}}>Delete</button>
                                         <button onClick={()=>editData(data.id)}>Edit</button>
                                     </td>
+                                    <td>{data.link}</td>
                                    
                                 </tr> 
                                 
