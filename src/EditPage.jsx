@@ -57,7 +57,8 @@ export default function EditChannel() {
                     <option name="Free" id="">Free </option>
                     <option name="Paid" id="">Paid </option>
                 </select>
-                <label htmlFor="type"> Catagory: </label><select value={category} placeholder="Catagory" onClick={(event) => setCategory(event.target.value)} name="Movies">
+                <label htmlFor="category"> Catagory: </label><select value={category} placeholder="Catagory" onChange={(event) => setCategory(event.target.value)} id="category" name="Movies">
+                    
                     <option name="Movies" id="">Movies</option>
                     <option name="Music" id="">Music </option>
                     <option name="News" id="">News </option>

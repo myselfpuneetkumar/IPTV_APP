@@ -22,9 +22,9 @@ export default function Home({localPath}) {
     // const [videoData, setVideoData] = useState('https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8')
     const [videoData, setVideoData] = useState('../public/test.mp4')
         // let localnPath = localPath;
-        const url = "http://localhost:3000/channels";
+        // const url = "http://localhost:3000/channels";
         // const url = "http://"+localPath+"/channels";
-        // const url = "http://192.168.183.30:3000/channels"
+        const url = "http://192.168.48.30:3000/channels"
         // const url = "https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json"
     // let  url = localPath;
 
