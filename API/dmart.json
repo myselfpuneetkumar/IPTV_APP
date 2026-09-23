@@ -1,0 +1,193 @@
+{
+  "august": {
+    "info": "august month",
+    "grocaryList": [
+      {
+        "name": "Besan",
+        "price": 50,
+        "hsn": 110610
+      },
+      {
+        "name": "English oven Bread",
+        "price": 52,
+        "hsn": 190520
+      },
+      {
+        "name": "Amul Btr",
+        "price": 75,
+        "hsn": "040510"
+      },
+      {
+        "name": "Go Cheese",
+        "price": 120,
+        "hsn": "040620"
+      },
+      {
+        "name": "Tata Salt",
+        "price": 51,
+        "hsn": 250100
+      },
+      {
+        "name": "badam",
+        "price": 500,
+        "hsn": "0092"
+      },
+      {
+        "name": "Bonn Pizza",
+        "price": 37,
+        "hsn": "190590",
+        "quantity": 200
+      },
+      {
+        "name": "Horlics",
+        "price": 116.25,
+        "hsn": "190190",
+        "quantity": 200
+      },
+      {
+        "name": "Bhujialal",
+        "price": 180,
+        "hsn": "210690",
+        "quantity": 1000
+      },
+      {
+        "name": "Chaval",
+        "price": 600,
+        "hsn": "11184933",
+        "quantity": 55
+      },
+      {
+        "name": "qwerty",
+        "price": 55,
+        "hsn": "545335",
+        "quantity": 43343
+      }
+    ]
+  },
+  "september": {
+    "info": "September month",
+    "grocaryList": [
+      {
+        "name": "L Masoor",
+        "price": 94.514,
+        "hsn": "071340",
+        "quantity": 1.099,
+        "rate": 86,
+        "gst": 0
+      },
+      {
+        "name": "L Rajma",
+        "price": 127,
+        "hsn": "071333",
+        "quantity": 1,
+        "rate": 127,
+        "gst": 0
+      },
+      {
+        "name": "L wand st Basmati Rice",
+        "price": 104.51999999999998,
+        "hsn": "100630",
+        "quantity": 1.005,
+        "rate": 104,
+        "gst": 0
+      },
+      {
+        "name": "L W Masoor",
+        "price": 86.866,
+        "hsn": "071340",
+        "quantity": 1.028,
+        "rate": 84.5,
+        "gst": 0
+      },
+      {
+        "name": "L JD Poha",
+        "price": 61.30499999999999,
+        "hsn": "190410",
+        "quantity": 1.005,
+        "rate": 61,
+        "gst": 0
+      },
+      {
+        "name": "English Oven Bread P-700G",
+        "price": 104,
+        "hsn": "190520",
+        "quantity": 2,
+        "rate": 52,
+        "gst": 0
+      },
+      {
+        "name": "Rock Salt-1KG",
+        "price": 39,
+        "hsn": "250100",
+        "quantity": 1,
+        "rate": 39,
+        "gst": 0
+      },
+      {
+        "name": "Luxe SoftBound B5 S",
+        "price": 198,
+        "hsn": "482020",
+        "quantity": 2,
+        "rate": 99,
+        "gst": 0
+      },
+      {
+        "name": "Amul Kool Kes-180ml",
+        "price": 23,
+        "hsn": "040299",
+        "quantity": 1,
+        "rate": 23,
+        "gst": 2.5
+      },
+      {
+        "name": "Swaad Akrod WHO-1KG",
+        "price": 589,
+        "hsn": "080231",
+        "quantity": 1,
+        "rate": 589,
+        "gst": 2.5
+      },
+      {
+        "name": "Fortune Soyabeen-750g",
+        "price": 143,
+        "hsn": "150790",
+        "quantity": 1,
+        "rate": 143,
+        "gst": 2.5
+      },
+      {
+        "name": "Parle melody",
+        "price": 75,
+        "hsn": "180690",
+        "quantity": 1,
+        "rate": 75,
+        "gst": 2.5
+      },
+      {
+        "name": "Cadbury Gems-94.04g",
+        "price": 75,
+        "hsn": "180690",
+        "quantity": 1,
+        "rate": 75,
+        "gst": 2.5
+      },
+      {
+        "name": "L Pasta",
+        "price": 65.52,
+        "hsn": "190230",
+        "quantity": 1.04,
+        "rate": 63,
+        "gst": 2.5
+      },
+      {
+        "name": "Maggi Masala Noodles-560g",
+        "price": 93,
+        "hsn": "190230",
+        "quantity": 1,
+        "rate": 93,
+        "gst": 2.5
+      }
+    ]
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}

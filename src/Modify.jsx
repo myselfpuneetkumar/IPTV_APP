@@ -6,8 +6,8 @@ export default function Modify() {
     let count = 1;
     const navigate = useNavigate();
 
-    // const url = "http://localhost:3000/channels/";
-            const url = "http://192.168.48.30:3000/channels"
+    const url = "http://localhost:3000/channels/";
+            // const url = "http://192.168.193.30:3000/channels"
 
 
     const channelList = async () => {

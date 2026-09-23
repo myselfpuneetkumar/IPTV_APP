@@ -1,5 +1,4 @@
-
-
+/* @import "tailwindcss"; */
 
 
 body {
@@ -19,32 +18,90 @@ body {
   /* display: flex; */
   flex-direction: row;
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(181, 218, 80, 0.495),rgba(234, 234, 156, 0.368),rgba(223, 107, 107, 0.76),rgba(93, 93, 255, 0.372),rgba(231, 134, 231, 0.813),pink,rgb(19, 255, 220));
+  background-color: rgba(237, 65, 214, 0.659);
+  /* background-image: linear-gradient(rgb(19, 255, 220),rgba(181, 218, 80, 0.495),rgba(234, 234, 156, 0.368),rgba(223, 107, 107, 0.76),rgba(93, 93, 255, 0.372),rgba(231, 134, 231, 0.813),pink,rgb(19, 255, 220)); */
  
 
 }
+
+.popupcontainer{
+  background-color: rgb(230, 172, 235);
+  width: 95vw;
+  color: black;
+  height:auto;
+  margin: 2%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50px;
+  display: none;
+
+
+
+}
+.cardVideo{
+
+  position:sticky;
+  top:70px;
+  border-bottom: 5px double green;
+   background-color:yellow;
+   /* background-color:rgb(215, 88, 229); */
+}
 header{
   width: 100%;
-  height: 50px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
   position: sticky;
-  background-image: linear-gradient(rgb(9, 4, 1),rgba(2, 25, 70, 0.473));
+  /* background-image: linear-gradient(rgb(9, 4, 1),rgba(2, 25, 70, 0.473)); */
+  background-color:#ff00c3;
   top: 0px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   margin-bottom: 10px;
   padding-bottom: 10px;
+
+}
+
+.menu{
+  display: none;
 }
 nav{
   padding: 8px;
   width: 100%;
   height: 50px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   position: sticky;
   top: 100px;
   flex-direction: row;
   flex-wrap:nowrap;
 }
+nav a{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  line-height: normal;
+  font-style:normal;
+  font-size: large;
+}
+nav a:hover{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: yellow;
+  line-height: normal;
+  font-style:normal;
+  transition: all ease-in-out 0.2s ;
+  font-size: large;
+  /* border: 2px double  #aa3bff; */
+  /* padding: 10px; */
+}
+
+
 footer{
   background-color: #e23bbbd0;
   width: 100%;
@@ -73,6 +130,9 @@ h1 {
     margin: 20px 0;
   }
 }
+p{
+  color:'black';
+}
 h2 {
   font-size: 24px;
   line-height: 118%;
@@ -90,7 +150,24 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4,2fr);
   gap: 10px;
-  padding: 40px;
+  width: 80vw;
+  padding: 20px;
+  
+  margin-left: 10vw;
+  @media (max-width: 1080px) {
+    margin-left: 40px;
+    grid-template-columns: repeat(4,2fr);
+    margin-right: 25vw;
+    gap: 5px;
+    font-size: 20px;
+  }
+  @media (max-width: 1000px) {
+    margin-left: 80px;
+    grid-template-columns: repeat(3,2fr);
+    margin-right: 25vw;
+    gap: 5px;
+    font-size: 20px;
+  }
 }
 
 .banner{
@@ -98,6 +175,11 @@ h2 {
   width: 200px;
   color: black;
   border: 2px double green;
+  border-radius: 20px;
+  /* border-top: 10px solid green;
+  border-right: 5px solid green; */
+
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.712);
   padding: 10px;
   background-image: linear-gradient(rgba(255, 255, 0, 0.637),rgba(238, 130, 238, 0.76));
 
@@ -105,6 +187,7 @@ h2 {
 .banner h1,h2{
   font-size: x-large;
 }
+
 table{
   background-color: #14adff;
   align-items: center ;
@@ -164,6 +247,19 @@ form input{
   border: 2px solid rgb(255, 220, 22);
   border-radius: 10px;
 
+}
+
+.animationdiv{
+  /* background-color: greenyellow; */
+  animation: anime alternate both;
+}
+@keyframes anime {
+  form{
+    background-color: green;
+  }
+  to{
+    background-color: yellow;
+  }
 }
 form select{
   background-image: linear-gradient(rgba(50, 219, 50, 0.427),rgba(235, 235, 20, 0.477));
@@ -229,7 +325,7 @@ video{
   border: 5px double violet;
   border-radius: 10px;
   
-  margin-left: 25vw;
+  margin-left: 30%;
   margin-right: 25vw;
   flex-direction: column;
   background-image: linear-gradient(rgb(57, 255, 18),rgba(68, 196, 239, 0.909));
@@ -239,6 +335,11 @@ video{
   /* top:70px */
 
   /* gap: 0px; */
+   @media (max-width: 1060px) {
+     margin-left: 20%;
+  margin-right: 25vw;
+    font-size: 20px;
+  }
 }
 
 .vidControls button{
@@ -272,26 +373,29 @@ cursor: pointer;
   height: 40px;
   border-radius: 25px;
   text-align: center;
+  /* cursor: pointer; */
   font-family: 'Times New Roman', Times, serif;
+
 }
 
 @media (max-width:850px) {
   
   .bannerList{
-    padding: 10px;
+    padding: 5px;
   display: grid;
   grid-template-columns: repeat(3,2fr);
-  gap: 10px;
+  gap: 2px;
+  margin-left: 20px;
 }
 
 .vidControls{
-  width: 500px;
+  width: 80vw;
   display: flex;
   justify-content: center;
   border: 5px double violet;
   border-radius: 10px;
   
-  margin-left: 100px;
+  margin-left: 80px;
   margin-right: 100px;
   flex-direction: column;
 
@@ -302,18 +406,19 @@ cursor: pointer;
   
   .bannerList{
   display: grid;
+  width: 80vw;
   grid-template-columns: repeat(2,1fr);
   gap: 10px;
 }
 
 .vidControls{
-  width: 450px;
+  width: 80vw;
   display: flex;
   justify-content: center;
   border: 5px double violet;
   border-radius: 10px;
   
-  margin-left: 20px;
+  margin-left: 50px;
   margin-right: 20px;
   flex-direction: column;
 
@@ -321,29 +426,38 @@ cursor: pointer;
 }
 }
 @media (max-width:520px) {
-  #root{
+  body{
      overflow-x: hidden;
   }
   
   .bannerList{
   display: grid;
+  width: 70vw;
   grid-template-columns: repeat(1,1fr);
   gap: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 .vidControls{
-  width: 300px;
-  max-width: 300px;
+  width: 80vw;
+  max-width: 100%;
   min-height: 200px;
   display: flex;
   justify-content: center;
   border: 5px double violet;
   border-radius: 10px;
+  flex-wrap: wrap;
   
   /* margin-left: 40px; */
   margin-right: 20px;
+  margin-left: 30px;
   flex-direction: column;
 
   /* gap: 0px; */
+}
+video{
+  width: 80vw;
+
 }
 
 .banner{
@@ -354,6 +468,8 @@ cursor: pointer;
   border: 2px double green;
   display: flex;
   flex-direction: row;
+  margin-left: 10px;
+  margin-right: 2px;
   gap: 1px;
   /* flex-wrap: wrap; */
 
@@ -378,27 +494,75 @@ header{
   width: 100%;
   height: auto;
   position: sticky;
-  background-color: #020103d6;
+  /* background-color: #020103d6; */
+  background-color: violet;
+  background-color: #ff00c3;
   top: 0px;
+  display: flex;
+  flex-direction: column;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   margin-bottom: 100px;
   padding-bottom: 10px;
 }
+.logo{
+  /* border: 1px solid transparent; */
+  border-radius: 50%;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+.menu{
+  display:inline-block;
+  /* border: none; */
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  transform: translateY(2px);
+
+  transition: transform 5s ease-in;
+}
+h2{
+  font-size: large;
+}
+.cardVideo{
+  top:100px;
+  background-color: yellow;
+  position: sticky;
+}
+
 nav{
   padding: 8px;
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: space-around;
+
+  /* position: sticky; */
+  /* top: 0; */
+  z-index: 1000;
+ 
   position: sticky;
-  top: 100px;
+  top: 200px;
   flex-direction: column;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
   gap: 10px;
 }
+.content {
+  height: 200px;
+}
+
 nav a{
 
   border-bottom: 1px solid gray;
+  width: 90%;
 }
+nav a:hover{
+
+ background-color: rgb(9, 34, 56);
+ transition:all ease-in-out 0.4s;
+ font-size: x-large;
+}
+
+
+
+
 }

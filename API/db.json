@@ -201,12 +201,52 @@
       "id": "oV81goaRIeg"
     },
     {
+      "name": "MTV HD",
+      "logo": "",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "http://116.90.120.157:8000/play/a0ig/index.m3u8",
+      "id": "q8BpO3jls58"
+    },
+    {
+      "name": "Nick HD+",
+      "logo": "",
+      "category": "Cartoon",
+      "type": "Paid",
+      "link": "http://116.90.120.157:8000/play/a0i3/index.m3u8",
+      "id": "q8BpO3jls5s"
+    },
+    {
+      "name": "Sony Max HD",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://116.90.120.157:8000/play/a0jf/index.m3u8",
+      "id": "q8BpO3jls5t"
+    },
+    {
       "name": "7S Music (576p)",
       "logo": "",
       "category": "",
       "type": "Free",
       "link": "https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8",
-      "id": "q8BpO3jls58"
+      "id": "q8BpO3jls5q"
+    },
+    {
+      "name": "7S Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8",
+      "id": "q8BpO3jls5z"
+    },
+    {
+      "name": "7S Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8",
+      "id": "q8BpO3jls5qq"
     },
     {
       "name": "9X Jhakaas (1080p)",
@@ -241,22 +281,6 @@
       "id": "YWlT9T9gT-g"
     },
     {
-      "name": "&flix HD (1080p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://103.72.101.252:8080/live/1322.m3u8",
-      "id": "aKH-_s3WZvM"
-    },
-    {
-      "name": "&xplor HD (1080p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://149.71.34.166:8000/play/a001/index.m3u8",
-      "id": "JlDt45ySqBE"
-    },
-    {
       "name": "Aaj Tak HD (1080p)",
       "logo": "",
       "category": "",
@@ -265,36 +289,12 @@
       "id": "RG0FWyG-kKY"
     },
     {
-      "name": "Anmol Cinema 2 (576p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://103.175.73.12:8080/live/257/257_0.m3u8",
-      "id": "QKN1ulYNHpA"
-    },
-    {
-      "name": "Anmol TV (576p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://103.175.73.12:8080/live/256/256_0.m3u8",
-      "id": "9AFHnFz_dcw"
-    },
-    {
       "name": "B4U Bhojpuri (1080p)",
       "logo": "",
       "category": "",
       "type": "Free",
       "link": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
       "id": "nVArZWMMMeg"
-    },
-    {
-      "name": "B4U Hitz (576p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://115.42.65.142:9981/stream/channelid/1099703605",
-      "id": "q1nxv_ywq1s"
     },
     {
       "name": "B4U Kadak (1080p) [Geo-blocked]",

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import defImage from "../public/play.png"
 
 // alert("Please use GOOGLE Chrome or Firefox for better Experiencing \nThank You")
-export default function Home({localPath}) {
+export default function Home({urls}) {
     const [channels, setChannels] = useState([]);
     const [channelLength, setChannelLengths] = useState(0);
     const [loading, setLoading] = useState(false);
@@ -13,20 +13,31 @@ export default function Home({localPath}) {
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [seachingData, setSearchingData] = useState('')
     const [playControl, setPlayControl] = useState(true)
-    // const [path,setPath] = useState('ok')
+      const [showHomeLink, setShowHomeLink] = useState(false);
+
+    // consts [path,setPath] = useState('ok')
     // const[url,setUrl] = useState("http://192.168.183.30:3000/channels")
+    const[url,setUrl] = useState('https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json')
+        // localStorage.setItem('paths', 'http://localhost:3000/channels')
+
+//     const [url, setUrl] = useState(
+    // localStorage.getItem("url")
+// );
     const videoref = useRef(null);
 
 
 
     // const [videoData, setVideoData] = useState('https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8')
-    const [videoData, setVideoData] = useState('../public/test.mp4')
+    // const [videoData, setVideoData] = useState('../public/test.mp4')
+    const [videoData, setVideoData] = useState('https://files.catbox.moe/j54cjt.mp4')
         // let localnPath = localPath;
         // const url = "http://localhost:3000/channels";
         // const url = "http://"+localPath+"/channels";
-        const url = "http://192.168.48.30:3000/channels"
+        // const url = "http://192.168.193.30:3000/channels"
         // const url = "https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json"
-    // let  url = localPath;
+    // let  url = url;
+    // console.log('locALPATH',localPath);
+    
 
     // useEffect(()=>{
     //     setUrl(localPath.toString());
@@ -38,29 +49,343 @@ export default function Home({localPath}) {
     // },[localPath])
 
 
-const channelList = async () => {
 
-        let response = await fetch(url);
-        response = await response.json();
-        setChannels(response);
-        setLoading(true);
-        console.log(response.length);
-        setChannelLengths(response.length)
+
+
+
+//     const channelList = async () => {
+//     try {
+//         setLoading(false);
+
+//         const response = await fetch(url);
+//         const data = await response.json();
+//         // data = data.channels
+
+//         console.log(`data is new here ${data}`);
+        
+
+//         let channelData = [];
+
+//         // Your old API format
+//         if (Array.isArray(data)) {
+//             channelData = data;
+//         }
+//        else if (Array.isArray(data)) {
+//             // channelData = data
+//             // setChannels(data);
+//         }
+
+
+
+
+        
+
+//         // New LiveTV.json format
+//         else if (data.channels) {
+
+//             Object.entries(data.channels).forEach(
+//                 ([category, channelList]) => {
+
+//                     channelList.forEach((channel) => {
+
+//                         channelData.push({
+//                             name: channel.name,
+//                             logo: channel.logo,
+//                             category: category,
+//                             type: "Free",
+//                             link: channel.url
+//                         });
+
+//                     });
+
+//                 }
+//             );
+//         }
+//         else{
+//           return(
+//             <h1>ok</h1>
+//           )
+//         }
+
+//         setChannels(channelData);
+//         setChannelLengths(channelData.length);
+//         setLoading(true);
+
+//         // Start from first channel
+//         setIndexVal(0);
+
+//         if (channelData.length > 0) {
+//             setVideoData(channelData[0].link);
+//             setChName(channelData[0].name);
+//         }
+
+//     } catch (error) {
+//         console.error("Error loading channels:", error);
+
+//         setChannels([]);
+//         setChannelLengths(0);
+//         setLoading(false);
+//     }
+// };
+
+
+
+
+// const channelList = async () => {
+//   try {
+//     setLoading(false);
+
+//     const response = await fetch(url);
+
+//     if (!response.ok) {
+      
+
+//        throw new Error(`HTTP Error: ${response.status}`);
+//        console.log(`HTTP Error: ${response.status}`);
+       
+      
+//     }
+
+//     let data = await response.json();
+    
+    
+    
+//     // let reso = []
+//     // reso = await data.channels;
+//     // console.log(`data is ${reso}`);
+    
+
+//     let channelData = [];
+
+//     // =====================================
+//     // FORMAT 1 & 2
+//     // Local JSON / Old Server
+//     // =====================================
+//     if (Array.isArray(data)) {
+//       // data = data.channels
+//       channelData = data.map((channel) => ({
+//         id: channel.id,
+//         name: channel.name,
+//         logo: channel.logo,
+//         category: channel.category,
+//         type: channel.type,
+//         link: channel.link
+//       }));
+//     }
+//     else if (Array.isArray(data)) {
+//       channelData = data.map((channel) => ({
+//         id: channel.id,
+//         name: channel.name,
+//         logo: channel.logo,
+//         category: channel.category,
+//         type: channel.type,
+//         link: channel.link
+//       }));
+//     }
+
+//     // =====================================
+//     // FORMAT 3
+//     // LiveTV.json
+//     // =====================================
+//     else if (data) {
+//       Object.entries(data.channels).forEach(
+//         ([category, channelList]) => {
+
+//           channelList.forEach((channel) => {
+
+//             channelData.push({
+//               id: channel.name,
+//               name: channel.name,
+//               logo: channel.logo,
+//               category: category,
+//               type: "Free",
+//               link: channel.url
+//             });
+
+//           });
+
+//         }
+//       );
+//     }
+//     else{
+//       return(
+//         <h1>no data</h1>
+//       )
+//     }
+
+//     console.log("Loaded channels:", channelData);
+
+//     setChannels(channelData);
+//     setChannelLengths(channelData.length);
+//     setIndexVal(0);
+
+//     // Automatically select first channel
+//     if (channelData.length > 0) {
+//       setVideoData(channelData[0].link);
+//       setChName(channelData[0].name);
+//     }
+
+//     setLoading(true);
+
+//   } catch (error) {
+
+//     console.error("Error loading channels:", error);
+
+//     setChannels([]);
+//     setChannelLengths(0);
+//     setVideoData("");
+//     setChName("");
+
+//     setLoading(false);
+//   }
+// };
+
+
+// const channelList = async () => {
+
+//     // localStorage.getItem('paths')
+//     // if(!url){
+//     //     return false
+//     // }
+
+//     // const channelList = async () => {
+//     try {
+//         setLoading(false);
+
+//         const response = await fetch(url);
+//         const data = await response.json();
+
+//         const channelData = Array.isArray(data)
+//             ? data
+//             : data.channels || data.channels.news || [];
+
+//         setChannels(channelData);
+//         setChannelLengths(channelData.length);
+//         setLoading(true);
+
+//     } catch (error) {
+//         console.error("Error loading channels:", error);
+//         setChannels([]);
+//         setChannelLengths(0);
+//         setLoading(false);
+//     }
+// };
+
+
+
+
+        // let response = await fetch(url);
+        // console.log('home url',url);
+        
+        // response = await response.json();
+        // setChannels(response);
+        // setLoading(true);
+        // console.log(response.length);
+        // setChannelLengths(response.length)
 
 
 
         // console.log(len)
-    }
+
+
+
+
+
+
+    const channelList = async () => {
+        try {
+            setLoading(false);
+
+            const response = await fetch(url);
+
+            // localStorage.getItem("url",url)
+
+            if (!response.ok) {
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+
+            const data = await response.json();
+            // data = data.channels
+            let channelData = [];
+
+            // Local / old / online db.json format
+            if (Array.isArray(data)) {
+                channelData = data.map((channel) => ({
+                    id: channel.id ?? channel.name,
+                    name: channel.name,
+                    logo: channel.logo,
+                    category: channel.category,
+                    type: channel.type || "Free",
+                    link: channel.link
+                }));
+            }
+
+            else if (data.channels && Array.isArray(data.channels)) {
+            channelData = data.channels;
+        }
+
+            // LiveTV.json format
+            else if (data && data.channels) {
+                Object.entries(data.channels).forEach(([category, list]) => {
+                    if (!Array.isArray(list)) return;
+
+                    list.forEach((channel) => {
+                        channelData.push({
+                            id: channel.name,
+                            name: channel.name,
+                            logo: channel.logo,
+                            category: category,
+                            type: "Free",
+                            link: channel.url
+                        });
+                    });
+                });
+            }
+
+            console.log("Loaded channels:", channelData);
+
+            setChannels(channelData);
+            localStorage.setItem('paths',url)
+            setChannelLengths(channelData.length);
+            setIndexVal(0);
+
+            if (channelData.length > 0) {
+                setVideoData(channelData[0].link);
+                setChName(channelData[0].name);
+            } else {
+                setVideoData("");
+                setChName("");
+            }
+
+            setLoading(true);
+        } catch (error) {
+            console.error("Error loading channels:", error);
+            setChannels([]);
+            setChannelLengths(0);
+            setVideoData("");
+            setChName("");
+            setLoading(false);
+        }
+    };
+
+    
     console.log(channels[indexVal])
     console.log(indexVal);
+
+
+    const changeUrl = ()=>{
+       
+        channelList();
+        
+    }
 
     const watchLive = (localPath, Name, index) => {
         setVideoData(localPath);
         setChName(Name)
         setIndexVal(index)
-        console.log(name)
+        // console.log(name)
         console.log(index)
-        channelList();
+        // channelList();
     }
     //Prev Play
     const prevPlay = () => {
@@ -82,18 +407,19 @@ const channelList = async () => {
 
 
     }
+    // let filteredChannels = []
     const getSearchData = (event) => {
-        let searchData = event.target.value;
-        console.log(searchData);
-        setSearchingData(searchData);
+        // let searchData = event.target.value;
+        // console.log(searchData);
+        // setSearchingData(searchData);
 
     }
-
-   let filteredChannels = channels.filter((currChannel) => {
-  const name = currChannel.name ? currChannel.name.toLowerCase() : "";
-  const category = currChannel.category ? currChannel.category.toLowerCase() : "";
-  return name.includes(seachingData.toLowerCase()) || category.includes(seachingData.toLowerCase());
-});
+        
+        const filteredChannels = channels.filter((currChannel) => {
+            const name = currChannel.name ? currChannel.name.toLowerCase() : "";
+            const category = currChannel.category ? currChannel.category.toLowerCase() : "";
+            return name.includes(seachingData.toLowerCase()) || category.includes(seachingData.toLowerCase());
+        });
 
 
     function pausePlay() {
@@ -108,8 +434,11 @@ const channelList = async () => {
 
 
     useEffect(() => {
+        //  let tempUrl = localStorage.getItem('paths')
+        // setUrl(tempUrl)
         channelList();
-    }, [])
+        
+    }, [url])
 
 
     const copyPath = async(e)=>{
@@ -127,6 +456,29 @@ const channelList = async () => {
     }
 
 
+    
+
+    const handleScroll = () => {
+      if (window.scrollY > 250) {
+        setShowHomeLink(true);
+      } else {
+        setShowHomeLink(false);
+      }
+    };
+//   useEffect(() => {
+//     handleScroll();
+// })
+
+useEffect(() => {
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+    
+
+
 
 
     return (
@@ -134,18 +486,57 @@ const channelList = async () => {
 
 
             {/* <Video /> */}
+
+              {showHomeLink && (
+        <a
+          href="#"
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            background: "transparent",
+            color: "white",
+            padding: "10px 15px",
+            borderRadius: "5px",
+            textDecoration: "none",
+          }}
+        >
+          <img src="nextplay.png" style={{height:'40px', width:'40px', transform:'rotate(270deg)'}} alt="" />
+        </a>
+      )}
+
+      {/* <input type="text" onChange={(e)=>setUrl(e.target.value)} /> */}
+<select name="" id="" onChange={(e)=>setUrl(e.target.value)}>
+
+      <option value="no">lo</option>
+      <option value="http://localhost:3000/channels">local</option>
+      {/* <option value="http://localhost:3000/">lowqwqwql</option> */}
+      <option value="http://localhost:3000/channels">loca</option>
+      <option value="http://10.188.247.30:3000/channels">on</option>
+      <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json
+">online</option>
+      <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db_old.json
+">online2</option>
+<option value="https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/India/LiveTV.json">
+    India Live TV
+</option>
+</select>
+
+<button onclick={changeUrl}>ok</button>
             {
                 // videoData.endsWith('.m3' || videoData.endsWith('.m3u8')) ?
-                videoData ?
+                videoData || videoData.endsWith('.m3u8')?
                     // videoData ? 
                     <div className="vidControls">
                         {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
-                        <video src={videoData} controls autoPlay height="auto" width="auto" ref={videoref}>
+                        <video src={videoData} controls autoPlay height="500px" width="auto" ref={videoref}>
                         </video>
 
 
 
-                        <h2 style={{ margin: '10px' }}>{chName} <span>CH-{indexVal + 1}</span></h2><div>
+                        <h2 style={{ margin: '1px' }}>{chName?chName:'Testing'} |  <span>CH-{indexVal+1}</span> <span>                                       
+                             <button style={{ cursor:"pointer",height:'20px',width:'20px', backgroundColor:'transparent', border:'none'}} onClick={()=>copyPath(videoData)} > <img src={'./public/copy.jpg'} alt="copy" style={{ cursor:"pointer",height:'25px',width:'25px', marginTop:'20px'}} title="copy" /> </button></span> </h2> 
+<div>
                             <button onClick={prevPlay}><img src="./public/prev.png" alt="" title="Previous Play"/></button>
                             <button onClick={pausePlay}>{playControl ? <img src="./public/play.png" alt="no image" title="Pause/Play"  /> : <img src="./public/pause.png" alt="" />}</button>
 
@@ -156,7 +547,7 @@ const channelList = async () => {
 
 
                     :
-                    <div className="vidControls">
+                    <div className="vidControls" >
                          <h2 style={{ margin: '10px' }}>{chName}</h2>
                         <h2>This Channel is temporary out of service please select other one</h2>
                         <div>
@@ -175,17 +566,18 @@ const channelList = async () => {
 
             </div>
 
+ 
 
-             <div style={{ display: 'flex', justifyContent: 'space-around' }} className="midHero" className="min-h-screen bg-gray-950 text-white">
+             <div style={{ display: 'flex', justifyContent: 'space-around',display:"none" }}  >
                 <button className="btn"> <Link to="/addchannels">Add Channels</Link></button>
                 <button className="btn"><Link to="/modify">Modify List</Link></button>
-                 </div>/ 
+                 </div>
             {
                 channelLength ? <h1>Total Available Channels:{channelLength}</h1> : <h1>Total Available Channels:{channelLength}</h1>
             }
            
 
-            <input type="search" name="search" placeholder="Enter Channel Name,Category" className="searchChannels" onChange={getSearchData} /><span><button className="sbtn" onClick={getSearchData}>search</button></span>
+            <input type="search" name="search" placeholder="Enter Channel Name,Category" className="searchChannels" onChange={(e)=>setSearchingData(e.target.value)} /><span><button className="sbtn" onClick={filteredChannels}>search</button></span>
             {
                 loading ?
 
@@ -199,8 +591,9 @@ const channelList = async () => {
                                         <h1 key={index}> {data.name}</h1>
                                         <h2>Category :{data.category}</h2>
                                         <h2>Type:<br />{data.type}</h2>
-                                        <button style={{ margin:"2px"}}onClick={()=>copyPath(data.link)}>Copy </button> | 
-                                        <Link style={{color:"black"}}to={data.link} target="_blank"> WATCH now</Link><br />
+                                        <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}  onClick={()=>copyPath(data.link)} > <img src={'./public/copy.jpg'} alt="copy" height="18px" width="18px" title="copy link" /> </button> | 
+                                        <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}>          <Link style={{color:"black"}}to={data.link} target="_blank"> <img src={'./public/next_page.png'} alt="copy" height="18px" width="18px" title="Watch  link in new tab" /></Link></button>
+                               <br />
                                         <button onClick={() => watchLive(data.link, data.name, index)}><img src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
 
                                     </div>
@@ -211,6 +604,9 @@ const channelList = async () => {
                     </div>
                     : <h1>Unable to connect with server try again later</h1>
             }
+
+
+          
         </>
     )
 }
