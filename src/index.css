@@ -18,8 +18,9 @@ body {
   /* display: flex; */
   flex-direction: row;
   box-sizing: border-box;
-  background-color: rgba(237, 65, 214, 0.659);
-  /* background-image: linear-gradient(rgb(19, 255, 220),rgba(181, 218, 80, 0.495),rgba(234, 234, 156, 0.368),rgba(223, 107, 107, 0.76),rgba(93, 93, 255, 0.372),rgba(231, 134, 231, 0.813),pink,rgb(19, 255, 220)); */
+  /* background-color: rgba(237, 65, 214, 0.659); */
+  /* background-color: rgba(192, 194, 193, 0.779); */
+  background-image: linear-gradient(rgb(19, 255, 220), rgba(181, 218, 80, 0.495),rgba(234, 234, 156, 0.368),rgba(223, 107, 107, 0.76),rgba(93, 93, 255, 0.372),rgba(231, 134, 231, 0.813),pink,rgb(19, 255, 220));
  
 
 }
@@ -28,6 +29,7 @@ body {
   background-color: rgb(230, 172, 235);
   width: 95vw;
   color: black;
+  /* max-height: 1500px; */
   height:auto;
   margin: 2%;
   margin-right: 20%;
@@ -36,7 +38,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  position: absolute;
+  position: sticky;
   top: 50px;
   display: none;
 
@@ -401,9 +403,14 @@ cursor: pointer;
 
   /* gap: 0px; */
 }
+.vidControls video{
+  width: 80vw;
+}
 }
 @media (max-width:700px) {
-  
+  nav a{
+    font-size: medium;
+  }
   .bannerList{
   display: grid;
   width: 80vw;
@@ -423,6 +430,9 @@ cursor: pointer;
   flex-direction: column;
 
   /* gap: 0px; */
+}
+.vidControls video{
+  /* width: 80vw; */
 }
 }
 @media (max-width:520px) {

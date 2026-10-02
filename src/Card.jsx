@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './index.css'
 
 import defImage from "../public/play.png"
+import HLSPlayer from "./HLSPlayer";
 
 
 export default function Card({ url,filteredCategory }) {
@@ -239,8 +240,10 @@ let filteredChannels = channels.filter((currChannel) => {
                     // videoData ? 
                     <div className="vidControls" >
                         {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
-                        <video src={videoData} controls autoPlay height="auto" width="auto" ref={videoref}>
-                        </video>
+                        {/* <video src={videoData} controls autoPlay height="auto" width="auto" ref={videoref}>
+                        </video> */}
+                        <HLSPlayer url={videoData} />
+
 
 
 
@@ -278,9 +281,9 @@ let filteredChannels = channels.filter((currChannel) => {
                                     <div className="banner">
                                         <h2>{index+1}</h2>
                                         <img src={data.logo || defImage} onError={(e) => {e.target.src = defImage;}} alt="banner"  height="100px" width="100px" />
-                                        <h1 key={index}> {data.name}</h1>
+                                        <h1 key={index} > {data.name.length > 20 ? data.name.slice(0,20)+"...":data.name}</h1>
                                         <h2>Category:{data.category}</h2>
-                                        <h2>Type:<br />{data.type}</h2>
+                                        {/* <h2>Type:<br />{data.type}</h2> */}
                                         <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}>          <Link style={{color:"black"}}to={data.link} target="_blank"> <img src={'./public/next_page.png'} alt="copy" height="18px" width="18px" title="Watch  link in new tab" /></Link></button>
                           <button onClick={() => watchLive(data.link, data.name, index)}><img src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
 

@@ -22,7 +22,7 @@ export default function RoutesPath() {
     const[url,setUrl] = useState('')
     console.log(url);
     
-    let version = "1.0.2"
+    let version = "2.0.1"
 
     const [showHomeLink, setShowHomeLink] = useState(false);
 
@@ -90,7 +90,7 @@ const [selectedFruit, setSelectedFruit] = useState("apple");
                         textDecoration: "none",
                     }}
                 >
-                    <img src="nextplay.png" style={{ height: '40px', width: '40px', transform: 'rotate(270deg)' }} alt="" />
+                    <img src={'./nextplay.png'} style={{ height: '40px', width: '40px', transform: 'rotate(270deg)' }} alt="" />
                 </a>
             )}
 
@@ -99,20 +99,21 @@ const [selectedFruit, setSelectedFruit] = useState("apple");
 
             <div>
                 <h1 style={{ padding: '0', margin: '0' }}>IPTV <sub style={{ fontSize: '20px' }}>V {version}</sub> Channel List</h1>
-                <select name="" id="">
+                {/* <select name="" id="">
                     <option value="http://localhost:3000/channels" onChange={(e)=>handleUrl(e.target.value)}>localhost</option>
                     <option value="http://localhost:3000/c" onClick={(e)=>setUrl(e.target.value)}>locq</option>
                     <option value="http://localhost:3000/channels" onClick={(e)=>setUrl(e.target)}>localhost</option>
                     
-                </select>
+                </select> */}
                 <Routes >
                     {/* <Route path="/" element={<Home url = {url}/>}></Route> */}
-                    <Route path="/" element={<Home 
+                    <Route path="/" element={<Home />}></Route>
+                    {/* <Route path="/" element={<Home 
                     label="Choose a fruit:"
         options={fruitOptions}
         selectedValue={selectedFruit}
         onSelectionChange={handleFruitChange}
-                    />}></Route>
+                    />}></Route> */}
 
 
 
@@ -130,6 +131,7 @@ const [selectedFruit, setSelectedFruit] = useState("apple");
                     <Route path="/category" element={<Category />} />
                     <Route path="/animate" element={<Hover />} />
                     <Route path="/props" element={<ParentComponent />} />
+                    <Route path="/video" element={<Video />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
                 <Footer version={version} />

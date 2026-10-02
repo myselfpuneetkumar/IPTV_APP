@@ -193,12 +193,63 @@ if(url.ok){
                 
             </details>
               <hr />
+            <details style={{cursor:'pointer'}}>
+                <summary>
+                    Entertainment
+                </summary>
+                    <Card url={url} filteredCategory={'entertainment'} />
+                
+            </details>
+              <hr />
+            <details style={{cursor:'pointer'}}>
+                <summary>
+                    Comedy
+                </summary>
+                    <Card url={url} filteredCategory={'comedy'} />
+                
+            </details>
+              <hr />
+            <details style={{cursor:'pointer'}}>
+                <summary>
+                    Education
+                </summary>
+                    <Card url={url} filteredCategory={'education'} />
+                
+            </details>
+              <hr />
                 <hr />
             <details style={{cursor:'pointer'}}>
                 <summary>
                     Sports
                 </summary>
                     <Card url={url} filteredCategory={'sports'} />
+                
+            </details>
+              <hr />
+                <hr />
+            <details style={{cursor:'pointer'}}>
+                <summary>
+                    Culture
+                </summary>
+                    <Card url={url} filteredCategory={'culture'} />
+                
+            </details>
+              <hr />
+                <hr />
+            <details style={{cursor:'pointer'}}>
+                <summary>
+                    Religious
+                </summary>
+                    <Card url={url} filteredCategory={'religious'} />
+                
+            </details>
+              <hr />
+                <hr />
+            <details style={{cursor:'pointer'}}>
+                <summary>
+                    Lifestyle
+                </summary>
+                    <Card url={url} filteredCategory={'lifestyle'} />
                 
             </details>
               <hr />

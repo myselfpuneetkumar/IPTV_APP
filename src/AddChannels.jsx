@@ -37,9 +37,10 @@ export default function AddChannels(){
                     <option name="News" id="">News </option>
                     <option name="Sports" id="">Sports</option>
                     <option name="Education" id="">Education </option>
+                    <option name="Serials" id="">Serials </option>
                     <option name="Cartoon" id="">Cartoon </option>
                 </select>
-           <label htmlFor="type"> Type: </label><select value='' placeholder="type" onClick={(event)=>setType(event.target.value)} name="type">
+           <label htmlFor="type"> Type: </label><select value={type} placeholder="type" onChange={(event)=>setType(event.target.value)} name="type">
                 <option name="Free" id="">Free </option>
                 <option name="Paid" id="">Paid </option>
             </select>

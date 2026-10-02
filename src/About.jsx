@@ -24,9 +24,12 @@ export default function About(){
                 <li>multi resolutions are available for different picture quality</li>
                 <li>No need to install any software</li>
                 <li>SPA(single page Application) which make a smooth experience</li>
+                <li>Single Click Installable</li>
+                <li>Installable on both mobile and pc</li>
             </ul>
             <h4 style={{textAlign:'left'}}>Note--</h4>
-            <p style={{textAlign:'left'}}>The Images ,Logo,Audio,video are the copright reserved property of their respective owners we used here for education as well as Enterntainment Purposes only <br /> If any one have any questions or any query contact to <a href="mailto:mytechnicalteam08@gmail.com" style={{color:"violet"}}> mytechnicalteam08@gmail.com</a> </p>
+            <p style={{textAlign:'left'}}>The Images ,Logo,Audio,video are the copyright reserved property of their respective owners we used here for Education as well as Enterntainment Purposes only <br /> We used here the Channels which are publicaly available free to use for fair purposes 
+            <br /> If any one have any questions or any query contact to <a href="mailto:mytechnicalteam08@gmail.com" style={{color:"black"}}> mytechnicalteam08@gmail.com</a> </p>
             </div>
             
         </div>

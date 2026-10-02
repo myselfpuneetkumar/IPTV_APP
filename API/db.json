@@ -369,22 +369,6 @@
       "id": "X9IpBclQ8ZY"
     },
     {
-      "name": "Manoranjan Prime",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-4.pishow.tv/live/1474/master.m3u8",
-      "id": "V2fiaCjfV84"
-    },
-    {
-      "name": "Nazara (1080p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
-      "id": "ZSqAoaOMrbA"
-    },
-    {
       "name": "Sai TV",
       "logo": "",
       "category": "",
@@ -431,14 +415,6 @@
       "type": "Free",
       "link": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8",
       "id": "-m6KfAq5TgQ"
-    },
-    {
-      "name": "Sony Max 2 (576p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://149.71.34.166:8000/play/a00z/index.m3u8",
-      "id": "_tMASUsRavw"
     },
     {
       "name": "Sony Yay! (1080p) [Geo-blocked]",
@@ -945,86 +921,6 @@
       "id": "JJoKJG7UkDo"
     },
     {
-      "name": "Angel TV Europe (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-512011/europe/ngrp:angeleurope_all/playlist.m3u8",
-      "id": "T0xyrhNSw0E"
-    },
-    {
-      "name": "Angel TV FarEast (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8",
-      "id": "6DKks6zjtvQ"
-    },
-    {
-      "name": "Angel TV Hebrew (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8",
-      "id": "ZCuvtFMJu48"
-    },
-    {
-      "name": "Angel TV Indo-China (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8",
-      "id": "-feYaOOo4JQ"
-    },
-    {
-      "name": "Angel TV Indonesia (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8",
-      "id": "CfBAb-LOPuU"
-    },
-    {
-      "name": "Angel TV Nepal (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-109639/nepali/ngrp:angelnepali_all/playlist.m3u8",
-      "id": "1pb2ertF1Zw"
-    },
-    {
-      "name": "Angel TV Portuguese (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8",
-      "id": "AccI-d_aX3E"
-    },
-    {
-      "name": "Angel TV Russian (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8",
-      "id": "AXpLZ8Gc18E"
-    },
-    {
-      "name": "Angel TV Spanish (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8",
-      "id": "r1bbgxOnEL8"
-    },
-    {
-      "name": "Anjan TV (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8",
-      "id": "4jYlFsa0Sn0"
-    },
-    {
       "name": "Asianet Middle East (576p)",
       "logo": "",
       "category": "",
@@ -1039,86 +935,6 @@
       "type": "Free",
       "link": "https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
       "id": "sr8NrpUD7VI"
-    },
-    {
-      "name": "Ayush TV (360p) [Not 24/7]",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
-      "id": "qZ6amYebjCo"
-    },
-    {
-      "name": "B4U Bhojpuri (1080p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
-      "id": "UC1Rf4XHLSU"
-    },
-    {
-      "name": "B4U Kadak (1080p) [Geo-blocked]",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8",
-      "id": "d3jjQ4wQERw"
-    },
-    {
-      "name": "B4U Movies",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-2.pishow.tv/live/419/master.m3u8",
-      "id": "fMfMVVWnLGM"
-    },
-    {
-      "name": "B4U Music (576p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-2.pishow.tv/live/415/master.m3u8",
-      "id": "JFyncSx9TZU"
-    },
-    {
-      "name": "Balle Balle (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://mcncdndigital.com/balleballetv/index.m3u8",
-      "id": "hylAY8SQMx8"
-    },
-    {
-      "name": "Balle Balle",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-4.pishow.tv/live/987/master.m3u8",
-      "id": "S6-4QtJea40"
-    },
-    {
-      "name": "Bansal News (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8",
-      "id": "NZe637Gm9vo"
-    },
-    {
-      "name": "Bharat Express (480p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://stream1.livebox.co.in/VCAREhls/live.m3u8",
-      "id": "eQKsj_HvVLw"
-    },
-    {
-      "name": "Bharat Express",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-2.pishow.tv/live/1139/master.m3u8",
-      "id": "WxSkVfP1Lks"
     },
     {
       "name": "Bhojpuri Cinema",
@@ -1247,22 +1063,6 @@
       "type": "Free",
       "link": "https://mumt01.tangotv.in/O5aw8Zn3DDNATIONALHD/index.m3u8",
       "id": "S-N6797ebc8"
-    },
-    {
-      "name": "DD News",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-2.pishow.tv/live/12/master.m3u8",
-      "id": "LrrGtQjh8Ew"
-    },
-    {
-      "name": "DD Punjabi",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://cdn-4.pishow.tv/live/24/master.m3u8",
-      "id": "ld_v7PT1TXw"
     },
     {
       "name": "Desi Channel (720p)",
@@ -2169,38 +1969,6 @@
       "id": "cFxPuaXl7RM"
     },
     {
-      "name": "Colors HD",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://59.103.38.46:8000/play/a00b/index.m3u8",
-      "id": "NooiGCT6bfA"
-    },
-    {
-      "name": "Star Sports 1 HD (1080p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-      "id": "5lmcGlnYA6Y"
-    },
-    {
-      "name": "B4U Music APAC (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://s3.itcnbd.live/channel/6f6b7b6d25fbd0e6.m3u8",
-      "id": "c7NBP3Hp5-w"
-    },
-    {
-      "name": "B4U Movies APAC (720p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "https://s3.itcnbd.live/channel/129d01070adb9ee3.m3u8",
-      "id": "361Kl-9Tcjg"
-    },
-    {
       "name": "Zee Cinema ME (432p) [Geo-blocked]",
       "logo": "",
       "category": "",
@@ -2215,22 +1983,6 @@
       "type": "Free",
       "link": "https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8",
       "id": "4fszfqp3svs"
-    },
-    {
-      "name": "Colors Infinity (576p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://103.175.73.12:8080/live/29/29_0.m3u8",
-      "id": "nnTzKOrhmkM"
-    },
-    {
-      "name": "Star Sports Khel (1080p)",
-      "logo": "",
-      "category": "",
-      "type": "Free",
-      "link": "http://103.175.73.12:8080/live/151/151_0.m3u8",
-      "id": "xgHoHSQ4XBY"
     },
     {
       "name": "WOW Kidz (720p)",
@@ -2263,6 +2015,3092 @@
       "type": "Free",
       "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8",
       "id": "qsTu4zK0MBk"
+    },
+    {
+      "name": "7S Music (360p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8",
+      "id": "hjVQSccsHPI"
+    },
+    {
+      "name": "9X Jalwa (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8",
+      "id": "h09HXtvaNt4"
+    },
+    {
+      "name": "9X Jhakaas (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
+      "id": "UeH44d1oomA"
+    },
+    {
+      "name": "9X Jhakaas (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3H9XJHAKAAS/index.m3u8",
+      "id": "WF423xHD_ZI"
+    },
+    {
+      "name": "9X Tashan (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
+      "id": "n-Cmc0Kuknw"
+    },
+    {
+      "name": "9X Tashan (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn39XTASHAN/index.m3u8",
+      "id": "AO03fQUrzGk"
+    },
+    {
+      "name": "9X Tashan",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1613/master.m3u8",
+      "id": "u4PudQYxtqA"
+    },
+    {
+      "name": "9XM (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://9xjio.wiseplayout.com/9XM/master.m3u8",
+      "id": "Gh8dYrCFaPA"
+    },
+    {
+      "name": "9XM (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://epiconvh.akamaized.net/live/9XM/master.m3u8",
+      "id": "fLL1C3nvB8k"
+    },
+    {
+      "name": "10 TV (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/10TV/index.m3u8",
+      "id": "41FeBn3Q6fU"
+    },
+    {
+      "name": "22Scope News (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+      "id": "5rTsfCJqYh4"
+    },
+    {
+      "name": "24 News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8",
+      "id": "jTbRYFyvCW8"
+    },
+    {
+      "name": "24 News (396p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://segment.yuppcdn.net/110322/channel24/playlist.m3u8",
+      "id": "grZXrcd3Qro"
+    },
+    {
+      "name": "&TV International (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8",
+      "id": "DwPJtvBLoDE"
+    },
+    {
+      "name": "Aaj Tak (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.213.31.109:90/AajtakHD/playlist.m3u8",
+      "id": "jd9qkeEkY-M"
+    },
+    {
+      "name": "Aaj Tak (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8",
+      "id": "_C-J4lSy0QY"
+    },
+    {
+      "name": "Aaj Tak (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://feeds.intoday.in/aajtak/api/master.m3u8",
+      "id": "Xrb6URUZ-94"
+    },
+    {
+      "name": "Aaj Tak (404p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
+      "id": "1z2gLfAK94I"
+    },
+    {
+      "name": "Aaj Tak HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+      "id": "GvCf5RUlyD0"
+    },
+    {
+      "name": "Aaj Tak HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8",
+      "id": "SFg5c1sQlgQ"
+    },
+    {
+      "name": "Aakaash Aath (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8",
+      "id": "UylSNjhKorg"
+    },
+    {
+      "name": "Aakaash Aath (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8",
+      "id": "TjduOWTu-4M"
+    },
+    {
+      "name": "Aamar Bangla (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
+      "id": "AEpYgdN2RDw"
+    },
+    {
+      "name": "Aaseervatham TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4AASEERVATHAMTV/index.m3u8",
+      "id": "2Yi4G8AO9u0"
+    },
+    {
+      "name": "Aastha (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
+      "id": "yY-fvYCKJGc"
+    },
+    {
+      "name": "Aastha",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1454/master.m3u8",
+      "id": "SLUzEsoYFLI"
+    },
+    {
+      "name": "Aastha Bhajan (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.175.73.12:8080/live/339/master.m3u8",
+      "id": "XM6CEhUh2OI"
+    },
+    {
+      "name": "Aastha Bhajan (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2AASTHABHAJAN/index.m3u8",
+      "id": "ikI5nm3EwMw"
+    },
+    {
+      "name": "Aastha Bhajan (480p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:bhajan.smil/playlist.m3u8",
+      "id": "6uA9guHrp58"
+    },
+    {
+      "name": "Aastha Gujarati (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4AASTHAGUJARATI/index.m3u8",
+      "id": "CM4rB-CUW-M"
+    },
+    {
+      "name": "Aastha Gujarati (480p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/playlist.m3u8",
+      "id": "22vohHAZric"
+    },
+    {
+      "name": "Aastha Kannada (480p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
+      "id": "rMSiFkCNWV0"
+    },
+    {
+      "name": "Aastha Kannada",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/234/master.m3u8",
+      "id": "c88rrwFGxnA"
+    },
+    {
+      "name": "Aastha Prime 1 (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+      "id": "oerU3IJt658"
+    },
+    {
+      "name": "Aastha SD (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.175.73.12:8080/live/338/master.m3u8",
+      "id": "x9T75xdiEdI"
+    },
+    {
+      "name": "Aastha Tamil (480p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8",
+      "id": "7glVmjd2pgY"
+    },
+    {
+      "name": "Aastha Telugu (480p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
+      "id": "CjLeTcrnz9E"
+    },
+    {
+      "name": "Aastha Telugu",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/262/master.m3u8",
+      "id": "-p1A8wCUi0E"
+    },
+    {
+      "name": "Aathavan TV (720p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://45.77.66.224:1935/athavantv/live/playlist.m3u8",
+      "id": "WJIh9cnsMjc"
+    },
+    {
+      "name": "ABN Andhra Jyoti (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/ABNAJ/index.m3u8",
+      "id": "XdFkiq9Syb4"
+    },
+    {
+      "name": "ABP Ananda (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8",
+      "id": "L6Ht4Ye1zu4"
+    },
+    {
+      "name": "ABP Asmita (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8",
+      "id": "1RluB__cUcQ"
+    },
+    {
+      "name": "ABP Ganga (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8",
+      "id": "3gaqcsrGCkE"
+    },
+    {
+      "name": "ABP Majha (360p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
+      "id": "nC5GrrqpiF8"
+    },
+    {
+      "name": "ABP News (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8",
+      "id": "bHT3-MXs-1k"
+    },
+    {
+      "name": "Awaaz India TV (720p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
+      "id": "pHywIm7VYQ4"
+    },
+    {
+      "name": "B4U Bhojpuri (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
+      "id": "Oa907UG5p5k"
+    },
+    {
+      "name": "B4U Kadak",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/227/master.m3u8",
+      "id": "TZV0u-W8Pxw"
+    },
+    {
+      "name": "B4U Movies",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/419/master.m3u8",
+      "id": "nA4oIbBLzso"
+    },
+    {
+      "name": "B4U Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/415/master.m3u8",
+      "id": "tCSogFUwfPQ"
+    },
+    {
+      "name": "Balle Balle HD (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mcncdndigital.com/balleballetv/index.m3u8",
+      "id": "LW6ozSHE1Ow"
+    },
+    {
+      "name": "Balle Balle",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/987/master.m3u8",
+      "id": "iI3AnxCtVnQ"
+    },
+    {
+      "name": "Colors MENA HD (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8",
+      "id": "hsiZKEuqju0"
+    },
+    {
+      "name": "Colors Rishtey Americas (396p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8",
+      "id": "Bxm_6A0Y5L4"
+    },
+    {
+      "name": "Dangal 2 (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
+      "id": "ON5CjdRGQv8"
+    },
+    {
+      "name": "Dangal TV (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
+      "id": "1Z9ekfEZgtE"
+    },
+    {
+      "name": "Epic Bhojpuri (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8",
+      "id": "aB9IH-Zl_pY"
+    },
+    {
+      "name": "Epic Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8",
+      "id": "nxu1Cq0Ysko"
+    },
+    {
+      "name": "Epic TV Digital (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8",
+      "id": "yR87D7UhdDU"
+    },
+    {
+      "name": "ETV Andhra Pradesh (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8",
+      "id": "wQ1TMmp7w6s"
+    },
+    {
+      "name": "ETV Cinema (396p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "YCN5MMwt8N0"
+    },
+    {
+      "name": "ETV Cinema HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
+      "id": "DblFBm7E1k4"
+    },
+    {
+      "name": "ETV Comedy (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8",
+      "id": "FIMBX-qYX7Q"
+    },
+    {
+      "name": "ETV Josh (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8",
+      "id": "fB-PbDSThaA"
+    },
+    {
+      "name": "ETV Music (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8",
+      "id": "KYDbvIsVsn8"
+    },
+    {
+      "name": "Food Food (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8",
+      "id": "5L7hB8IVh78"
+    },
+    {
+      "name": "Goldmines Bollywood (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8",
+      "id": "AMAkuwQnWRk"
+    },
+    {
+      "name": "Goldmines Bollywood",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/tracks-v2a1/mono.m3u8",
+      "id": "ocbK3CAHGyw"
+    },
+    {
+      "name": "Goldmines Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.175.73.12:8080/live/51/51_0.m3u8",
+      "id": "-Bl4HhE-GCc"
+    },
+    {
+      "name": "Good News Today (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8",
+      "id": "gKl_3ea7v84"
+    },
+    {
+      "name": "Good News Today (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-89m9zu7a2upfe.akamaized.net/hls/live/2016145/gnt/gntlive/playlist.m3u8",
+      "id": "2gapwbksIPc"
+    },
+    {
+      "name": "GoodNews TV (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8",
+      "id": "5p9VTecrdKc"
+    },
+    {
+      "name": "Hi Dost! (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HHIDOST/index.m3u8",
+      "id": "F_lzbAmlJvQ"
+    },
+    {
+      "name": "MTV",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8",
+      "id": "fYCyJTcAKHk"
+    },
+    {
+      "name": "Epic Bharat Digital (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
+      "id": "cMu-7fzi8M0"
+    },
+    {
+      "name": "NDTV 24x7 (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8",
+      "id": "Md-YO5ilsZw"
+    },
+    {
+      "name": "NDTV 24X7 (480p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+      "id": "z1r91tcEqlU"
+    },
+    {
+      "name": "NDTV Good Times (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8",
+      "id": "S8zlSlSmtUk"
+    },
+    {
+      "name": "NDTV Good Times (396p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8",
+      "id": "X-sLm15z9dg"
+    },
+    {
+      "name": "NDTV India (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTVIndia.m3u8",
+      "id": "EWMvHDsGnCE"
+    },
+    {
+      "name": "NDTV India (480p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+      "id": "jj5zu_orTZ4"
+    },
+    {
+      "name": "NDTV Profit (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8",
+      "id": "3oiOCO3n__Q"
+    },
+    {
+      "name": "NDTV Profit (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8",
+      "id": "sludbpmiTLk"
+    },
+    {
+      "name": "NDTV Rajasthan (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8",
+      "id": "N27pcSR-Wx8"
+    },
+    {
+      "name": "Pasand TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8",
+      "id": "T7Q2NjnpGhg"
+    },
+    {
+      "name": "Pasand TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3PASANDTV/index.m3u8",
+      "id": "u4FfNeJkMcY"
+    },
+    {
+      "name": "Pear TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3PEARTV/index.m3u8",
+      "id": "A765GlgPvF8"
+    },
+    {
+      "name": "Peques TV (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8",
+      "id": "UnDy577R5YA"
+    },
+    {
+      "name": "Pitaara (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
+      "id": "RRKaqc8zQVs"
+    },
+    {
+      "name": "Power TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://powertvkannada.com/hls/stream.m3u8",
+      "id": "LUgILFPtYr8"
+    },
+    {
+      "name": "Prudent Media (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
+      "id": "OEx8ymEJr5U"
+    },
+    {
+      "name": "PTC Music (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
+      "id": "zg8uFqaYc0I"
+    },
+    {
+      "name": "PTC Music",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1501/master.m3u8",
+      "id": "jtJfeNO-FTA"
+    },
+    {
+      "name": "PTC Punjabi",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1604/master.m3u8",
+      "id": "wAQJV2B7LfE"
+    },
+    {
+      "name": "PTC Punjabi HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8",
+      "id": "7nxRbzHIcBo"
+    },
+    {
+      "name": "PTC Simran",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1503/master.m3u8",
+      "id": "J3vS-GRUhX0"
+    },
+    {
+      "name": "Public Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8",
+      "id": "drYWt72-ABE"
+    },
+    {
+      "name": "Pulari TV",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8",
+      "id": "9K6hb0bhH9w"
+    },
+    {
+      "name": "Puthiya Thalaimurai (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt07.tangotv.in/zHjX9OFlPUTHIYAEXPRESS/index.m3u8",
+      "id": "SvAfkoOMec8"
+    },
+    {
+      "name": "Puthiya Thalaimurai (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8",
+      "id": "I8cu8wa8_BI"
+    },
+    {
+      "name": "Puthiya Thalaimurai",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1261/master.m3u8",
+      "id": "ZX7M53nxNTE"
+    },
+    {
+      "name": "Puthuyugam TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4PUTHUYUGAMTV/index.m3u8",
+      "id": "DtQD7p6ac9k"
+    },
+    {
+      "name": "Raftaar Media (240p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8",
+      "id": "wZGtLIBlkis"
+    },
+    {
+      "name": "Raj Digital Plus (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8",
+      "id": "7ggFphHlqGk"
+    },
+    {
+      "name": "Raj Musix Tamil (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8",
+      "id": "AeduCrEEZPE"
+    },
+    {
+      "name": "Raj TV (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8",
+      "id": "uHGr4IkX1Ek"
+    },
+    {
+      "name": "Republic Bangla",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/270/master.m3u8",
+      "id": "18XxmPrby9M"
+    },
+    {
+      "name": "Sai TV",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://account31.livebox.co.in/saitvhls/live.m3u8",
+      "id": "F3tcII1wqsw"
+    },
+    {
+      "name": "Sai TV",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1235/master.m3u8",
+      "id": "v4AcJI-zro8"
+    },
+    {
+      "name": "Sairam TV",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/1611/master.m3u8",
+      "id": "fTsOO-nGnOo"
+    },
+    {
+      "name": "Sakshi TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/sakshi_nim_https/240122/sakshi/playlist.m3u8",
+      "id": "hEJMwR5SODY"
+    },
+    {
+      "name": "Shemaroo TV (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8",
+      "id": "6Wk33XQgGk4"
+    },
+    {
+      "name": "Shemaroo Umang (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8",
+      "id": "CbkuihdKWTo"
+    },
+    {
+      "name": "Shubh Cinema TV (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8",
+      "id": "EuUIePEJi-E"
+    },
+    {
+      "name": "Shubh TV (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8",
+      "id": "dMGuYyZFNuw"
+    },
+    {
+      "name": "Shubhsandesh TV (720p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8",
+      "id": "wdJHrhS9-p8"
+    },
+    {
+      "name": "Shubhsandesh TV",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn.pishow.tv/ott/live/457/master.m3u8",
+      "id": "tEUuG-4hl6o"
+    },
+    {
+      "name": "Sony Entertainment Television HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://38.96.178.205/SONYHD/index.m3u8",
+      "id": "dZuCKBJZsMA"
+    },
+    {
+      "name": "Sony Max 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://149.71.34.166:8000/play/a00z/index.m3u8",
+      "id": "FPCFp-9KPGs"
+    },
+    {
+      "name": "Sony Pix HD (1080p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8",
+      "id": "spy3jQqhIVY"
+    },
+    {
+      "name": "Sony Wah (1080p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8",
+      "id": "LYw6xPao8rk"
+    },
+    {
+      "name": "South Station (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8",
+      "id": "yEcxEE9Yrc0"
+    },
+    {
+      "name": "Star Sports 2 Hindi (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8",
+      "id": "Q-6OXQBfG00"
+    },
+    {
+      "name": "Star Sports Select 2 HD (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://tvsen7.aynascope.net/ssport2hd/index.m3u8",
+      "id": "N7uFec8kBtE"
+    },
+    {
+      "name": "Steelbird Music (720p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+      "id": "Z-UGraLqwnE"
+    },
+    {
+      "name": "The Movie Club (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+      "id": "eL2auMD3bwI"
+    },
+    {
+      "name": "The Movie Club +2 (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf",
+      "id": "yWr_0CNOzoo"
+    },
+    {
+      "name": "Total Bhakti (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8",
+      "id": "c7dmEKvdeQg"
+    },
+    {
+      "name": "TV5 News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8",
+      "id": "SJBLBRe1yJk"
+    },
+    {
+      "name": "TV9 Bharatvarsh (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-tv9yupp.vgcdn.net/vglive-sk-468570/v1/019dfce4b3371ea55784752988544/019dfce515ea1ea540a871e333259/main.m3u8",
+      "id": "W7gjzhViXtI"
+    },
+    {
+      "name": "TV Punjab (720p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8",
+      "id": "a1EZHH5inrY"
+    },
+    {
+      "name": "Ultimate TV (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://stream.ottlive.co.in/utvtamil/index.m3u8",
+      "id": "6qCbUTa24-s"
+    },
+    {
+      "name": "Ultimate TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/utv/index.m3u8",
+      "id": "ek416l28Lb4"
+    },
+    {
+      "name": "Unique TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8",
+      "id": "s2tIKYCsqN0"
+    },
+    {
+      "name": "WOW Kidz (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "ahiujYcbpxw"
+    },
+    {
+      "name": "YRF Music (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+      "id": "HXKfaeTJNEU"
+    },
+    {
+      "name": "YRF Music (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d14c63magvk61v.cloudfront.net/strm/channels/yrfmusic/master.m3u8",
+      "id": "GMlshDCGoJc"
+    },
+    {
+      "name": "Zee Bharat (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+      "id": "35AKegK_dYg"
+    },
+    {
+      "name": "Zee Bihar Jharkhand (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
+      "id": "aiDAa_5z7rM"
+    },
+    {
+      "name": "Zee Business (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://dwby15d04agvq.cloudfront.net/index_5.m3u8",
+      "id": "FqetUMhHvC0"
+    },
+    {
+      "name": "Zee Business (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://dwby15d04agvq.cloudfront.net/index_1.m3u8",
+      "id": "JTwfPxcyzd4"
+    },
+    {
+      "name": "Zee Cine Classic (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8",
+      "id": "mj1wftijQ9w"
+    },
+    {
+      "name": "Zee Cinema (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8",
+      "id": "ydQtqauwbqU"
+    },
+    {
+      "name": "Zee Cinema APAC (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8",
+      "id": "apVnNdMVlKA"
+    },
+    {
+      "name": "Zee Comedy Nation (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8",
+      "id": "TP_B5lVwWrY"
+    },
+    {
+      "name": "Zee Delhi NCR Haryana (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
+      "id": "9lAE0YMF32g"
+    },
+    {
+      "name": "Zee Dil Se (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8",
+      "id": "8K1CFDvemV8"
+    },
+    {
+      "name": "Zee Horror Nights (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8",
+      "id": "pP4U6SYYdvo"
+    },
+    {
+      "name": "Zee Kannada HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "kiy9CUKSn0A"
+    },
+    {
+      "name": "Zee Kannada News (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8",
+      "id": "LYd53-GQYIQ"
+    },
+    {
+      "name": "Zee Madhya Pradesh Chhattisgarh (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
+      "id": "2IXavrf7WbI"
+    },
+    {
+      "name": "Zee Marathi HD (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeMarathiHD.m3u8",
+      "id": "-o_j-Oleb04"
+    },
+    {
+      "name": "Zee News (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+      "id": "_4oSU7FZeEA"
+    },
+    {
+      "name": "Zee News (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://dt3lrqnyx3dks.cloudfront.net/index.m3u8",
+      "id": "5yZIVq4ehx4"
+    },
+    {
+      "name": "Zee News (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8",
+      "id": "bL4FcxNJKog"
+    },
+    {
+      "name": "Zee Punjab Haryana Himachal (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8",
+      "id": "HBAJZbX3_58"
+    },
+    {
+      "name": "Zee Rajasthan (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8",
+      "id": "XrwzLZp9XYQ"
+    },
+    {
+      "name": "Zee South Flix (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8",
+      "id": "fms2xqabDB0"
+    },
+    {
+      "name": "Zee Tamil News (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8",
+      "id": "7u9fZskK9qM"
+    },
+    {
+      "name": "Zee Telugu News (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8",
+      "id": "9_PS9hP3YWY"
+    },
+    {
+      "name": "Zee Uttar Pradesh/Uttarakhand (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
+      "id": "ofKJYJET3sI"
+    },
+    {
+      "name": "Zee Zest HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.72.101.252:8080/live/2757.m3u8",
+      "id": "r4u6-UAnMzY"
+    },
+    {
+      "name": "ZillarBarta News",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://server.zillarbarta.com/zillarbarta/index.m3u8",
+      "id": "irNQZP0OIWo"
+    },
+    {
+      "name": "Zoom (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
+      "id": "MftUq7qSBwU"
+    },
+    {
+      "name": "Zoom (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2esfk1pb9cdob.cloudfront.net/master.m3u8",
+      "id": "paLa8IVCvMM"
+    },
+    {
+      "name": "Colors Gujarati (396p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ColorsGujarati.m3u8",
+      "id": "La2lJA2JuNE"
+    },
+    {
+      "name": "9X Jalwa (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8",
+      "id": "KfUgTrvx0pA"
+    },
+    {
+      "name": "9X Jhakaas (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8",
+      "id": "MekIMzbdLIM"
+    },
+    {
+      "name": "9X Tashan (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8",
+      "id": "_twYm-B8IoE"
+    },
+    {
+      "name": "9XM (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
+      "id": "s9-EX29CLoM"
+    },
+    {
+      "name": "Dangal TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/DANGAL/ORIGIN/index.m3u8",
+      "id": "ssrkdHfLVZQ"
+    },
+    {
+      "name": "Shemaroo TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/SHEMAROOTV/ORIGIN/index.m3u8",
+      "id": "5HKSYQv5Xrk"
+    },
+    {
+      "name": "Dangal 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/DANGAL2/ORIGIN/index.m3u8",
+      "id": "1VciLUw8Cag"
+    },
+    {
+      "name": "Shemaroo Umang (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/SHEMAROOUMANG/ORIGIN/index.m3u8",
+      "id": "g34sDTW9KVk"
+    },
+    {
+      "name": "Epic Bharat (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVEPICTV/index.m3u8",
+      "id": "6vxcagj3424"
+    },
+    {
+      "name": "DD National HD (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/DDNATIONALHD/ORIGIN/index.m3u8",
+      "id": "6fagYf-ik30"
+    },
+    {
+      "name": "Manoranjan Grand (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/MANORANJANGRAND/ORIGIN/index.m3u8",
+      "id": "7mfAgEadcfo"
+    },
+    {
+      "name": "Shemaroo Josh (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8",
+      "id": "-lSpYvyde8k"
+    },
+    {
+      "name": "Manoranjan TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/MANORANJANTV/ORIGIN/index.m3u8",
+      "id": "STQXkmUWaKg"
+    },
+    {
+      "name": "Manoranjan Prime (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVMANORANJANPRIME/index.m3u8",
+      "id": "NwAxK1pW56E"
+    },
+    {
+      "name": "Goldmines (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8",
+      "id": "O31EkfMBHD4"
+    },
+    {
+      "name": "Goldmines Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8",
+      "id": "z_iOb8XElGM"
+    },
+    {
+      "name": "Goldmines Bollywood (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8",
+      "id": "wxtbcHdAMEs"
+    },
+    {
+      "name": "B4U Kadak (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8",
+      "id": "F4Dzmh6cu3c"
+    },
+    {
+      "name": "B4U Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8",
+      "id": "sWCWIHuob5w"
+    },
+    {
+      "name": "Manoranjan Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8",
+      "id": "3BgyMPVbTGk"
+    },
+    {
+      "name": "Music India (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8",
+      "id": "2zfJsCv-5eI"
+    },
+    {
+      "name": "9XM (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/9XM/ORIGIN/index.m3u8",
+      "id": "Sgp-ewee-FQ"
+    },
+    {
+      "name": "Epic Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/EPICMUSIC/ORIGIN/index.m3u8",
+      "id": "iuXoFN-Hmqo"
+    },
+    {
+      "name": "E 24 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4E24/index.m3u8",
+      "id": "5xlhN0VV9Cw"
+    },
+    {
+      "name": "B4U Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8",
+      "id": "EwdN7HLN-dk"
+    },
+    {
+      "name": "Insync (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4INSYNC/index.m3u8",
+      "id": "u6A9piuWE9s"
+    },
+    {
+      "name": "TV9 Bharatvarsh (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/TV9BHARATVARSH/ORIGIN/index.m3u8",
+      "id": "yc9pf7bhpXY"
+    },
+    {
+      "name": "Republic Bharat (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/REPUBLICBHARAT/ORIGIN/index.m3u8",
+      "id": "ZAZpuHSF7aA"
+    },
+    {
+      "name": "Times Now Navbharat (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/TIMESNOWNAVBHARAT/ORIGIN/index.m3u8",
+      "id": "Tv0uo_Z2JoE"
+    },
+    {
+      "name": "News Nation (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/NEWSNATION/ORIGIN/index.m3u8",
+      "id": "NGGF7ExdEVk"
+    },
+    {
+      "name": "India TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/INDIATV/ORIGIN/index.m3u8",
+      "id": "xqQg5oAHgt0"
+    },
+    {
+      "name": "News 24 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/NEWS24/ORIGIN/index.m3u8",
+      "id": "BlysrDv4IRk"
+    },
+    {
+      "name": "DD News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/DDNEWS/ORIGIN/index.m3u8",
+      "id": "xdzl_Jr7uz4"
+    },
+    {
+      "name": "Bharat24 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/BHARAT24/ORIGIN/index.m3u8",
+      "id": "djoqo8hufEE"
+    },
+    {
+      "name": "Sudarshan News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/SUDARSHANNEWS/ORIGIN/index.m3u8",
+      "id": "aL88GYCagZU"
+    },
+    {
+      "name": "Ishwar Bhakti TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2ISHWARBHAKTI/index.m3u8",
+      "id": "wejU3IHHBEE"
+    },
+    {
+      "name": "Bhakti Sagar (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2BHAKTISAGAR/index.m3u8",
+      "id": "Usc-r3Ff2vk"
+    },
+    {
+      "name": "Awakening TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HAWAKENINGTV/index.m3u8",
+      "id": "TLWff0ABRZg"
+    },
+    {
+      "name": "Sadhna TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2SADHNATV/index.m3u8",
+      "id": "MvK-SXC-FzI"
+    },
+    {
+      "name": "Darshan 24 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2DARSHAN24/index.m3u8",
+      "id": "HETicYubhxQ"
+    },
+    {
+      "name": "Aadinath TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3AADINATHTV/index.m3u8",
+      "id": "rMgjzA3OHgU"
+    },
+    {
+      "name": "Hope Channel India (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3HOPECHANNELINDIA/index.m3u8",
+      "id": "5vrr2m2VUsY"
+    },
+    {
+      "name": "Pitaara (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/PITAARA/ORIGIN/index.m3u8",
+      "id": "EyeEGLOrTIk"
+    },
+    {
+      "name": "PTC Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4PTCMUSIC/index.m3u8",
+      "id": "AFoRJ3MC3RY"
+    },
+    {
+      "name": "PTC Chakde (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVPTCCHAKDE/index.m3u8",
+      "id": "rmLMTQ_JOwM"
+    },
+    {
+      "name": "Tabbar Hits (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/TABBARHITS/ORIGIN/index.m3u8",
+      "id": "hiyWESEXflA"
+    },
+    {
+      "name": "PTC Simran (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/PTCSIMRAN/ORIGIN/index.m3u8",
+      "id": "MZAhduy9S2I"
+    },
+    {
+      "name": "B4U Bhojpuri (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/B4UBHOJPURI/ORIGIN/index.m3u8",
+      "id": "f4vFKdgZjmQ"
+    },
+    {
+      "name": "Bhojpuri Cinema (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://streams.tangotv.in/BHOJPURICINEMA/ORIGIN/index.m3u8",
+      "id": "2yIoa36XASc"
+    },
+    {
+      "name": "Sangeet Bhojpuri (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8",
+      "id": "57oY20HY6U8"
+    },
+    {
+      "name": "Mahaa Max (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HMAHAAMAX/index.m3u8",
+      "id": "5OjcheP67OY"
+    },
+    {
+      "name": "Prime9 News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3PRIME9NEWS/index.m3u8",
+      "id": "xhgwIT1ksvI"
+    },
+    {
+      "name": "9X Tashan (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen6.aynaott.com/sMqhLN6n/index.m3u8",
+      "id": "i2r1CcHLKyo"
+    },
+    {
+      "name": "B4U Kadak (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
+      "id": "7IHchZReR_s"
+    },
+    {
+      "name": "B4U Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
+      "id": "PbznSghS9Rk"
+    },
+    {
+      "name": "Dangal TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8",
+      "id": "PVYbMs9olgs"
+    },
+    {
+      "name": "Dangal 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8",
+      "id": "Gan7oeCW2o4"
+    },
+    {
+      "name": "Goldmines (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/VamXuQH8/index.m3u8",
+      "id": "TEUoZ3g8_js"
+    },
+    {
+      "name": "Goldmines Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+      "id": "-ArKHu5J060"
+    },
+    {
+      "name": "Goldmines Bollywood (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
+      "id": "Dyw-5ZUDtj4"
+    },
+    {
+      "name": "Manoranjan TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8",
+      "id": "Utv7nDHzcV0"
+    },
+    {
+      "name": "Shemaroo TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/27jCLCUX/index.m3u8",
+      "id": "jB86YHeSOlo"
+    },
+    {
+      "name": "Network 10 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1msejlow1t3l4.cloudfront.net/fta/network10/playlist.m3u8",
+      "id": "MxYWJfwQvZg"
+    },
+    {
+      "name": "Swaraj Express SMBC (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1msejlow1t3l4.cloudfront.net/fta/swarajexpresssmbc/playlist.m3u8",
+      "id": "2AYgQrR3S8k"
+    },
+    {
+      "name": "Mahaa Max (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1msejlow1t3l4.cloudfront.net/fta/mahaamax/playlist.m3u8",
+      "id": "Ier7jJ2C-nQ"
+    },
+    {
+      "name": "B4U Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/B4uMusic/index.m3u8",
+      "id": "9GA_ZmedJko"
+    },
+    {
+      "name": "Epic Bharat Digital (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
+      "id": "LHnb-uoIUjY"
+    },
+    {
+      "name": "Epic Kids Digital (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8",
+      "id": "hXtUq9RIAWs"
+    },
+    {
+      "name": "Epic Music Digital (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8",
+      "id": "JUg9oaKNXU4"
+    },
+    {
+      "name": "WOW Kidz (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "W4sXzHlnd98"
+    },
+    {
+      "name": "Zee Uttar Pradesh/Uttarakhand (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt07.tangotv.in/zHjX9OFlZEEUPUK/index.m3u8",
+      "id": "_5Lg3SJMHaY"
+    },
+    {
+      "name": "Zee News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt07.tangotv.in/zHjX9OFlZEENEWS/index.m3u8",
+      "id": "FgEMZ0i6FME"
+    },
+    {
+      "name": "Zee Bharat (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HZEEBHARAT/index.m3u8",
+      "id": "FXYY2SEZgzM"
+    },
+    {
+      "name": "Star Maa Movies HD (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8",
+      "id": "rd_Whsrd7HA"
+    },
+    {
+      "name": "Epic Bhojpuri Digital (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8",
+      "id": "3rMquHq0Huk"
+    },
+    {
+      "name": "All Time Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
+      "id": "poz_3W8Bvfk"
+    },
+    {
+      "name": "Kabaddi 24x7 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://180.188.254.253/live/KABADDI24X7.m3u8",
+      "id": "DB3u4m2-ynw"
+    },
+    {
+      "name": "Times Now Navbharat (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/a5ee7c4e7a2a4b15a22a3bcf523b9776/index.m3u8",
+      "id": "Z0NKZ3LDMmc"
+    },
+    {
+      "name": "Times Now Navbharat HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8",
+      "id": "aWRX0jaL7qg"
+    },
+    {
+      "name": "StarPlus HD (1080p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://41.205.93.154/STAR-PLUS/index.m3u8",
+      "id": "LiaGtGod3mw"
+    },
+    {
+      "name": "Zee TV HD (720p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://41.205.93.154/ZEE-TV/index.m3u8",
+      "id": "mPYsbJ0CkRU"
+    },
+    {
+      "name": "ETV Bal Bharat (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8",
+      "id": "t_rflFJwaJY"
+    },
+    {
+      "name": "Nickelodeon (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.185.24.134:3001/NICK/index.m3u8",
+      "id": "lE1AQpe8uo0"
+    },
+    {
+      "name": "Sonic (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "id": "opFPO31xfbY"
+    },
+    {
+      "name": "Nick Jr. (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.185.24.134:3001/NICK-JR/index.m3u8",
+      "id": "6TRJeKDNk4A"
+    },
+    {
+      "name": "Enterr 10 Bangla (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.165.93.31:8095/enter10Bangla/index.m3u8",
+      "id": "cUj1MfPpCeg"
+    },
+    {
+      "name": "Colors Bangla HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.165.93.31:8095/colorsBangla/index.m3u8",
+      "id": "VY9ColncbhM"
+    },
+    {
+      "name": "Hungama TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.185.24.134:3001/HUNGAMA/index.m3u8",
+      "id": "oavnYduiKxI"
+    },
+    {
+      "name": "Super Hungama (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8",
+      "id": "sZiPSfXRAOI"
+    },
+    {
+      "name": "Sony Yay! (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+      "id": "Lw9GGcnkxXE"
+    },
+    {
+      "name": "Epic Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://66.102.126.10:8000/play/a01i/index.m3u8",
+      "id": "rGO8pcCCTAA"
+    },
+    {
+      "name": "B4U Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://66.102.126.10:8000/play/a01e/index.m3u8",
+      "id": "p5mRNQeMYk8"
+    },
+    {
+      "name": "B4U Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://66.102.126.10:8000/play/a01n/index.m3u8",
+      "id": "OcM_nbMARdM"
+    },
+    {
+      "name": "Hungama TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://66.102.126.10:8000/play/a023/index.m3u8",
+      "id": "hSeRe-uvt70"
+    },
+    {
+      "name": "Sony Pal (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://59.103.38.46:8000/play/a0ac/index.m3u8",
+      "id": "pfVLsFEDij0"
+    },
+    {
+      "name": "MNX (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://59.103.38.46:8000/play/a052/index.m3u8",
+      "id": "9NC96WYH7PU"
+    },
+    {
+      "name": "Colors Cineplex Bollywood (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a058/index.m3u8",
+      "id": "PGTanywVY4Q"
+    },
+    {
+      "name": "Disney International HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a04p/index.m3u8",
+      "id": "M1Xw39qPnaM"
+    },
+    {
+      "name": "Disney Channel (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a01q/index.m3u8",
+      "id": "sHq6Am3fqns"
+    },
+    {
+      "name": "StarPlus HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://66.102.126.10:8000/play/a008/index.m3u8",
+      "id": "4wk7PzwsuAo"
+    },
+    {
+      "name": "Colors HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://66.102.126.10:8000/play/a00a/index.m3u8",
+      "id": "eiysP80ZLvA"
+    },
+    {
+      "name": "&TV HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a06c/index.m3u8",
+      "id": "-Dl82PYXp4o"
+    },
+    {
+      "name": "Nickelodeon (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=1752848&extension=ts&play_token=8FNt7g9GJ5",
+      "id": "pn7R_EG6HHY"
+    },
+    {
+      "name": "Colors Cineplex Bollywood (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=946375&extension=ts&play_token=5n2Zexr7WT",
+      "id": "AIC1pxSsjaQ"
+    },
+    {
+      "name": "&xplor HD (1080p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
+      "id": "wIG1q-7aSQs"
+    },
+    {
+      "name": "Sony Max (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0",
+      "id": "qVXtWuNmSbk"
+    },
+    {
+      "name": "Star Jalsha (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+      "id": "57288W2I3mQ"
+    },
+    {
+      "name": "National Geographic (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:28:41&stream=373017&extension=ts&play_token=zCaGy5dtla",
+      "id": "_Xp3jRuFX20"
+    },
+    {
+      "name": "INews (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HINEWS/index.m3u8",
+      "id": "I0L2UfneaG4"
+    },
+    {
+      "name": "The Jungle Book (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+      "id": "_JeXnPWonUU"
+    },
+    {
+      "name": "Mango (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://stmv6.voxtvhd.com.br/cinehindi/cinehindi/playlist.m3u8",
+      "id": "0clcvPFnx2o"
+    },
+    {
+      "name": "Sony SAB HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/sabhd.m3u8",
+      "id": "P2pxZJs16Jk"
+    },
+    {
+      "name": "Sony Pal (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/pal.m3u8",
+      "id": "gsA6DBD9QL0"
+    },
+    {
+      "name": "Sony Wah (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/wah.m3u8",
+      "id": "j4OYy7Rf0Ok"
+    },
+    {
+      "name": "Sony Max (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/max.m3u8",
+      "id": "ilsZQZddD-A"
+    },
+    {
+      "name": "Sony Max HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8",
+      "id": "tTUOlkbZ0Ug"
+    },
+    {
+      "name": "Sony Max 2 (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/max2.m3u8",
+      "id": "af5Nsu4dy6w"
+    },
+    {
+      "name": "Sony Sports Ten 1 (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
+      "id": "qHMVVlPByAA"
+    },
+    {
+      "name": "Sony Sports Ten 1 HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8",
+      "id": "xaETI_be2iI"
+    },
+    {
+      "name": "Sony Sports Ten 2 (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten2.m3u8",
+      "id": "2SFT2UTPQXk"
+    },
+    {
+      "name": "Sony Sports Ten 2 HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8",
+      "id": "BzJdgWXt2i4"
+    },
+    {
+      "name": "Sony Sports Ten 3 Hindi (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
+      "id": "_8zjezPYBuc"
+    },
+    {
+      "name": "Sony Sports Ten 3 Hindi HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8",
+      "id": "42liB1iFGYI"
+    },
+    {
+      "name": "Sony Sports Ten 4 (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten4.m3u8",
+      "id": "slut9L_twXM"
+    },
+    {
+      "name": "Sony Sports Ten 4 Telugu (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8",
+      "id": "M55jEVAlJOE"
+    },
+    {
+      "name": "Sony Sports Ten 5 (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten5.m3u8",
+      "id": "ov0c95L-Cvg"
+    },
+    {
+      "name": "Sony Sports Ten 5 HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8",
+      "id": "nkM18gR6ukA"
+    },
+    {
+      "name": "Sony Yay! (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+      "id": "HvNJ1LsjciI"
+    },
+    {
+      "name": "Sony BBC Earth HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8",
+      "id": "TvKg3q2f2ys"
+    },
+    {
+      "name": "Sony Pix HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/pixhd.m3u8",
+      "id": "aVxkWCM4QkQ"
+    },
+    {
+      "name": "Mh 1 Music (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://livestream.jswk.online/playlisttest/live/playlist.m3u8",
+      "id": "zPdioa_Xc3k"
+    },
+    {
+      "name": "Sony Entertainment Television HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://cloudplay-sonyliv.pages.dev/sethd.m3u8",
+      "id": "6ddcOPkHrT0"
+    },
+    {
+      "name": "Sonic (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a02t/index.m3u8",
+      "id": "_yDArE56Hhc"
+    },
+    {
+      "name": "Nickelodeon (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a04c/index.m3u8",
+      "id": "Ir0sz-neg_Q"
+    },
+    {
+      "name": "Nick Jr. (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://202.70.146.135:8000/play/a02n/index.m3u8",
+      "id": "klxZuv90Qjg"
+    },
+    {
+      "name": "Studio One + (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d2gvyg6lvauoko.cloudfront.net/230226/studiooneplus/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "4N7pGdFB6WQ"
+    },
+    {
+      "name": "Goldmines Action (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8",
+      "id": "EXQtPjYY_M4"
+    },
+    {
+      "name": "Zing! (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/zing/index.m3u8?token=test",
+      "id": "orJUjxveOmU"
+    },
+    {
+      "name": "Shemaroo TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/ShemarooTV/index.m3u8?token=test",
+      "id": "woy83OVI5Pg"
+    },
+    {
+      "name": "Manoranjan Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/manoranjanmovies/index.m3u8?token=test",
+      "id": "NPkeb2YMlp8"
+    },
+    {
+      "name": "Zee Classic (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/zeeclassic/index.m3u8?token=test",
+      "id": "H6ltnXfk43s"
+    },
+    {
+      "name": "Sony Max 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/sonymax2/index.m3u8?token=test",
+      "id": "igPJH6wS4mE"
+    },
+    {
+      "name": "Star Gold 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/stargold2/index.m3u8?token=test",
+      "id": "f_IUKLMnDKw"
+    },
+    {
+      "name": "DD National (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/ddnational/index.m3u8?token=test",
+      "id": "IL9MOubkxKg"
+    },
+    {
+      "name": "Sony Marathi (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/sonymarathi/index.m3u8?token=test",
+      "id": "nGIEGJHH0XQ"
+    },
+    {
+      "name": "Tarang TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/tarangtv/index.m3u8?token=test",
+      "id": "DOEd_yUvBSY"
+    },
+    {
+      "name": "Sangeet Marathi (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/sangeetmarathi/index.m3u8?token=test",
+      "id": "NKTGChVKezw"
+    },
+    {
+      "name": "Zee Talkies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/zeetalkies/index.m3u8?token=test",
+      "id": "XK5zcWy0Y9w"
+    },
+    {
+      "name": "Dhamaal (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "http://107.167.16.138/dhamaal/index.m3u8?token=test",
+      "id": "V7WUL9WPKWE"
+    },
+    {
+      "name": "NH Tamil Gold (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf",
+      "id": "1JLPrTwBShs"
+    },
+    {
+      "name": "VR Live (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://channel.vrlivegujarat.com/hls/vrchannel.m3u8",
+      "id": "EyrTg2txnFI"
+    },
+    {
+      "name": "Vistaar News (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://stream.ottlive.co.in/vistaartv/index.m3u8",
+      "id": "KuQDLTSPFu8"
+    },
+    {
+      "name": "UTV Palakkad (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8",
+      "id": "pDmO5k_f9v0"
+    },
+    {
+      "name": "U Bangla (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://stream.ottlive.co.in/ubangla/index.m3u8",
+      "id": "vYywOoePDZk"
+    },
+    {
+      "name": "The Voice TV (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://legitpro.co.in/thevoicetv/thevoicetv/index.m3u8",
+      "id": "xLKZDLnJjoc"
+    },
+    {
+      "name": "Suriyan TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8",
+      "id": "6XpxsmAxIsU"
+    },
+    {
+      "name": "Asian News (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://stream.ottlive.co.in/asiannews/index.m3u8",
+      "id": "HsClUH6XhTo"
+    },
+    {
+      "name": "Asianet HD (360p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b696000.m3u8",
+      "id": "5-U0ew_nMq4"
+    },
+    {
+      "name": "Asianet HD (720p) [Not 24/7]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8",
+      "id": "8bEHSno7bKI"
+    },
+    {
+      "name": "Colors Super (396p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:colorssuper1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "JrnjJw-PzHo"
+    },
+    {
+      "name": "Bollygold (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://jmp2.uk/stvp-IN4000600Q",
+      "id": "paVC60SM2Fg"
+    },
+    {
+      "name": "Boogle Bollywood (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "id": "6bFwkKayPSQ"
+    },
+    {
+      "name": "Kadak (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8",
+      "id": "xhboUk5JebA"
+    },
+    {
+      "name": "Mahaa Max (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/MahaMax/index.m3u8",
+      "id": "-k2GVlzMYu4"
+    },
+    {
+      "name": "Mastiii (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8",
+      "id": "6Vd1lm_d8Xc"
+    },
+    {
+      "name": "Zee Telugu HD (720p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
+      "id": "5tP0LMzGfk4"
+    },
+    {
+      "name": "ETV Telugu HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/ETVHD/index.m3u8",
+      "id": "ioD6c6ViNfA"
+    },
+    {
+      "name": "ETV Plus HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/ETVPLUS/index.m3u8",
+      "id": "XAPgt6my80o"
+    },
+    {
+      "name": "ETV Music (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/ETVABHIRUCHI/index.m3u8",
+      "id": "1xO_U3QeEUY"
+    },
+    {
+      "name": "ETV Life (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/ETVLIFE/index.m3u8",
+      "id": "QIX7JEua9vI"
+    },
+    {
+      "name": "Sai TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/SaiTV/index.m3u8",
+      "id": "V2AEjFEm1FY"
+    },
+    {
+      "name": "The Movie Club (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/TheMovieClub/index.m3u8",
+      "id": "zOlBBxentq4"
+    },
+    {
+      "name": "Zoom (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8",
+      "id": "7VjjfG6MqPw"
+    },
+    {
+      "name": "DD Sports SD (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8",
+      "id": "LUy--dvBaYM"
+    },
+    {
+      "name": "Food Food (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/FoodFood/index.m3u8",
+      "id": "LP3Y0G5kBRA"
+    },
+    {
+      "name": "DD National HD (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8",
+      "id": "EqHLdQMMV5M"
+    },
+    {
+      "name": "DD India (1080p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumbai-edge.smartplaytv.in/DDIndia/index.m3u8",
+      "id": "MOy_KvjxUY0"
+    },
+    {
+      "name": "Zee Bangla HD (720p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
+      "id": "wvj6FI6juIM"
+    },
+    {
+      "name": "Mastiii (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/er7jmpVF/index.m3u8",
+      "id": "tyBP3VpxTw4"
+    },
+    {
+      "name": "Q TV (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8",
+      "id": "_BXVJCSUg68"
+    },
+    {
+      "name": "Music India (576p) [Geo-blocked]",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://tvsen3.aynaott.com/Ydvf4ppw/index.m3u8",
+      "id": "NFDta8i19BI"
+    },
+    {
+      "name": "Shemaroo TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVSHEMAROOTV/index.m3u8",
+      "id": "zcqXbT0Hlx4"
+    },
+    {
+      "name": "Shemaroo Umang (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4SHEMAROOUMANG/index.m3u8",
+      "id": "q3HdSOCbVP8"
+    },
+    {
+      "name": "Dangal TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4DANGAL/index.m3u8",
+      "id": "_OOJaAIpQYE"
+    },
+    {
+      "name": "Dangal 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HDANGAL2/index.m3u8",
+      "id": "bVgdmsH66dk"
+    },
+    {
+      "name": "Manoranjan TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4MANORANJANTV/index.m3u8",
+      "id": "PYcbo83Hh0Q"
+    },
+    {
+      "name": "Manoranjan Grand (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVMANORANJANGRAND/index.m3u8",
+      "id": "3jw4CPVkJrs"
+    },
+    {
+      "name": "B4U Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVB4UMOVIES/index.m3u8",
+      "id": "N0xRJRwan8E"
+    },
+    {
+      "name": "B4U Kadak (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt06.tangotv.in/qYyB8fXVB4UKADAK/index.m3u8",
+      "id": "sXszkKnF9Ew"
+    },
+    {
+      "name": "B4U Music (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4B4UMUSIC/index.m3u8",
+      "id": "wmCkDsz83ig"
+    },
+    {
+      "name": "Goldmines (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8",
+      "id": "2GZbQuad7Iw"
+    },
+    {
+      "name": "Goldmines Movies (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8",
+      "id": "DZOeVt2TA7c"
+    },
+    {
+      "name": "Goldmines 2 (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8",
+      "id": "7crrppy8qKE"
+    },
+    {
+      "name": "Music India (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2MUSICINDIA/index.m3u8",
+      "id": "AeBZgGf7uWA"
+    },
+    {
+      "name": "B4U Bhojpuri (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2B4UBHOJPURI/index.m3u8",
+      "id": "7Bu1I_9AiUE"
+    },
+    {
+      "name": "Bhojpuri Cinema (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2BHOJPURICINEMA/index.m3u8",
+      "id": "5B_ctD8mLrM"
+    },
+    {
+      "name": "PTC Punjabi (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4PTCPUNJABI/index.m3u8",
+      "id": "NUJUqXOow74"
+    },
+    {
+      "name": "PTC Punjabi Gold (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4PTCPUNJABIGOLD/index.m3u8",
+      "id": "iZYy9NqI59c"
+    },
+    {
+      "name": "MH One Dil Se (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3MHONEDILSE/index.m3u8",
+      "id": "Aa8GrIGbF48"
+    },
+    {
+      "name": "Mh 1 News (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4MHONENEWS/index.m3u8",
+      "id": "JADTfIXSxjg"
+    },
+    {
+      "name": "Tabbar Hits (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4TABBARHITS/index.m3u8",
+      "id": "tmxVRCLHsWI"
+    },
+    {
+      "name": "Rang (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt01.tangotv.in/O5aw8Zn3RANG/index.m3u8",
+      "id": "bSAQ7953suA"
+    },
+    {
+      "name": "Rengoni (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2RENGONI/index.m3u8",
+      "id": "CdplR40Qn78"
+    },
+    {
+      "name": "Channel Divya (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt05.tangotv.in/87NeALx2DIVYA/index.m3u8",
+      "id": "Fm-xaXrLMd0"
+    },
+    {
+      "name": "Public TV (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://mumt04.tangotv.in/m18aqlK4PUBLICTV/index.m3u8",
+      "id": "Vp6Wtet3bCE"
+    },
+    {
+      "name": "Star Sports 2 Telugu HD (576p)",
+      "logo": "",
+      "category": "",
+      "type": "Free",
+      "link": "https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8",
+      "id": "aEd8ShCjdE8"
+    },
+    {
+      "name": "Colors Cineplex",
+      "category": "Movies",
+      "type": "Free",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8",
+      "id": "lnY27-DKeGI"
+    },
+    {
+      "name": "Colors Cineplex 576p",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b696000.m3u8",
+      "id": "OOk7QUiHCHY"
+    },
+    {
+      "name": "Colors Rishtey",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_1800/chunks.m3u8",
+      "id": "NAS8ccXPr4o"
+    },
+    {
+      "name": "Colors Rishtey 576p",
+      "logo": "",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_600/chunks.m3u8",
+      "id": "oEEWrRfiioU"
+    },
+    {
+      "name": "Star Bharat",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/chunklist_b2628000.m3u8",
+      "id": "taZb316BxLo"
+    },
+    {
+      "name": "Star Bharat 576p",
+      "logo": "no",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/chunklist_b896000.m3u8",
+      "id": "VKupNHLLCQc"
+    },
+    {
+      "name": "Star Plus",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8",
+      "id": "VounSeqJVYk"
+    },
+    {
+      "name": "Star Plus 576p",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_800/chunks.m3u8",
+      "id": "P2baGYxNpi0"
+    },
+    {
+      "name": "Zee Cinema",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/chunklist_b2628000.m3u8",
+      "id": "N5ADEXZMCFo"
+    },
+    {
+      "name": "Colors",
+      "category": "Serials",
+      "type": "Paid",
+      "link": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsaudev.smil/chunklist_b1928000.m3u8",
+      "id": "jFe5ioBeqbs"
+    },
+    {
+      "name": "foodie",
+      "type": "Paid",
+      "link": "https://jmp2.uk/stvp-IN460000313",
+      "id": "xqE49RV2AfE"
+    },
+    {
+      "name": "cartoon network",
+      "category": "Cartoon",
+      "type": "Paid",
+      "link": "https://s3.ideationtec.live/Cartoon_Network/Cartoon_Network.m3u8",
+      "id": "JwVch0Supvs"
+    },
+    {
+      "name": "Bollywood HD",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8",
+      "id": "Nmceqmf425c"
+    },
+    {
+      "name": "Craft Diy",
+      "category": "Education",
+      "link": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2cafac16-f982-4563-9951-ccd6ab0c2c6b/manifest.m3u8?ads.channel=6942&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1790787479~exp=1790809079~acl=!*/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2cafac16-f982-4563-9951-ccd6ab0c2c6b/*!/payload/yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_172.171.12.198_yuppfast_2_channel_265_-1/*~data=yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_172.171.12.198_yuppfast_2_channel_265_-1~hmac=2c09950f6b7a7e3549de791602261662ad02252ec1ee5b60f2513838affc925f&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=ENTERTAINMENT&ads.channel_name=DIYART&ads.language=HIN&ads.user=0",
+      "id": "vcT6JNsbz_Y"
+    },
+    {
+      "name": "Sony Kal",
+      "category": "Movies",
+      "type": "Paid",
+      "link": "https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8",
+      "id": "8uT3ooJgLa8"
+    },
+    {
+      "name": "nick jr",
+      "category": "Cartoon",
+      "type": "Paid",
+      "link": "http://103.185.24.134:3001/NICK-JR/index.m3u8",
+      "id": "rruxFIZlgVw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

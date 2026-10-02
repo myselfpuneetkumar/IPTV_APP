@@ -2,6 +2,12 @@ import { useEffect, useRef, useState } from "react"
 import { Link } from "react-router-dom";
 // import Video from "./Video";
 import defImage from "../public/play.png"
+import Hls from "hls.js";
+
+
+
+
+
 
 // alert("Please use GOOGLE Chrome or Firefox for better Experiencing \nThank You")
 export default function Home({urls}) {
@@ -17,7 +23,8 @@ export default function Home({urls}) {
 
     // consts [path,setPath] = useState('ok')
     // const[url,setUrl] = useState("http://192.168.183.30:3000/channels")
-    const[url,setUrl] = useState('https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json')
+    // const[url,setUrl] = useState('https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json')
+    const [url,setUrl] = useState(localStorage.getItem('paths'));
         // localStorage.setItem('paths', 'http://localhost:3000/channels')
 
 //     const [url, setUrl] = useState(
@@ -372,6 +379,63 @@ export default function Home({urls}) {
     console.log(channels[indexVal])
     console.log(indexVal);
 
+    function HLSPlayer() {
+
+    // const videoRefs = useRef(null);
+    
+    const video = videoref.current;
+    
+    if (!video || !videoData) return;
+    
+    let hls;
+    
+    if (Hls.isSupported()) {
+        
+        hls = new Hls();
+        
+        hls.loadSource(videoData);
+        hls.attachMedia(video);
+        
+            hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                console.log("✅ HLS manifest loaded:", url);
+            });
+
+            hls.on(Hls.Events.ERROR, (event, data) => {
+
+                console.log("❌ HLS ERROR");
+                console.log("Type:", data.type);
+                console.log("Details:", data.details);
+                console.log("Fatal:", data.fatal);
+                console.log("URL:", data.url);
+                
+            });
+            
+        }
+
+        // Native HLS support (mainly Safari)
+        else if (
+            video.canPlayType("application/vnd.apple.mpegurl")
+        ) {
+
+            console.log("Using native HLS");
+
+            video.src = videoData;
+        }
+        
+        return () => {
+            
+            if (hls) {
+                hls.destroy();
+            }
+            
+        };
+        
+    }
+            useEffect(() => {
+                HLSPlayer();
+        
+    }, [videoData]);
+
 
     const changeUrl = ()=>{
        
@@ -438,7 +502,7 @@ export default function Home({urls}) {
         // setUrl(tempUrl)
         channelList();
         
-    }, [url])
+    }, [url,localStorage.getItem("paths")])
 
 
     const copyPath = async(e)=>{
@@ -506,12 +570,12 @@ useEffect(() => {
       )}
 
       {/* <input type="text" onChange={(e)=>setUrl(e.target.value)} /> */}
-<select name="" id="" onChange={(e)=>setUrl(e.target.value)}>
+{/* <select name="" id="" onChange={(e)=>setUrl(e.target.value)}>
 
       <option value="no">lo</option>
       <option value="http://localhost:3000/channels">local</option>
       {/* <option value="http://localhost:3000/">lowqwqwql</option> */}
-      <option value="http://localhost:3000/channels">loca</option>
+      {/* <option value="http://localhost:3000/channels">loca</option>
       <option value="http://10.188.247.30:3000/channels">on</option>
       <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json
 ">online</option>
@@ -520,17 +584,18 @@ useEffect(() => {
 <option value="https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/India/LiveTV.json">
     India Live TV
 </option>
-</select>
+</select>  */}
 
-<button onclick={changeUrl}>ok</button>
+{/* <button onclick={changeUrl}>ok</button> */}
             {
                 // videoData.endsWith('.m3' || videoData.endsWith('.m3u8')) ?
-                videoData || videoData.endsWith('.m3u8')?
-                    // videoData ? 
+                // videoData || videoData.endsWith('.m3u8')?
+                    videoData ? 
                     <div className="vidControls">
                         {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
-                        <video src={videoData} controls autoPlay height="500px" width="auto" ref={videoref}>
+                        <video  controls autoPlay height='800px' width="auto" ref={videoref}>
                         </video>
+                        
 
 
 
@@ -549,7 +614,7 @@ useEffect(() => {
                     :
                     <div className="vidControls" >
                          <h2 style={{ margin: '10px' }}>{chName}</h2>
-                        <h2>This Channel is temporary out of service please select other one</h2>
+                        <h2>This Channel/Server is temporary out of service please select other one or try again later.....</h2>
                         <div>
                             <span>{indexVal}</span>
                             <button onClick={prevPlay}><img src="./public/prev.png" alt=""  title="Previous Play" /></button>
@@ -568,10 +633,10 @@ useEffect(() => {
 
  
 
-             <div style={{ display: 'flex', justifyContent: 'space-around',display:"none" }}  >
+             {/* <div style={{ display: 'flex', justifyContent: 'space-around',display:"" }}  >
                 <button className="btn"> <Link to="/addchannels">Add Channels</Link></button>
                 <button className="btn"><Link to="/modify">Modify List</Link></button>
-                 </div>
+                 </div> */}
             {
                 channelLength ? <h1>Total Available Channels:{channelLength}</h1> : <h1>Total Available Channels:{channelLength}</h1>
             }
@@ -588,10 +653,10 @@ useEffect(() => {
                                     <div className="banner">
                                         <h2>{index+1}</h2>
                                         <img src={data.logo || defImage} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" />
-                                        <h1 key={index}> {data.name}</h1>
-                                        <h2>Category :{data.category}</h2>
-                                        <h2>Type:<br />{data.type}</h2>
-                                        <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}  onClick={()=>copyPath(data.link)} > <img src={'./public/copy.jpg'} alt="copy" height="18px" width="18px" title="copy link" /> </button> | 
+                                        <h2 key={index}> {data.name.length>16?data.name.slice(0,16)+"...":data.name}</h2>
+                                        <h1 >Category :{data.category}</h1>
+                                        <h1 >Type:<br />{data.type}</h1>
+                                        <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}  onClick={()=>copyPath(data.link)} > <img src={'./public/copy.jpg'} alt="copy" height="18px" width="18px" title="copy link" /> </button>|
                                         <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}>          <Link style={{color:"black"}}to={data.link} target="_blank"> <img src={'./public/next_page.png'} alt="copy" height="18px" width="18px" title="Watch  link in new tab" /></Link></button>
                                <br />
                                         <button onClick={() => watchLive(data.link, data.name, index)}><img src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
