@@ -1,82 +1,272 @@
+// import { useEffect, useRef } from "react";
+// import Hls from "hls.js";
+
+// export default function HLSPlayer({ url }) {
+
+//     const videoRef = useRef(null);
+
+//     useEffect(() => {
+
+//         const video = videoRef.current;
+
+//         if (!video || !url) return;
+
+//         let hls;
+
+//         if (Hls.isSupported()) {
+
+//             hls = new Hls();
+
+//             hls.loadSource(url);
+//             hls.attachMedia(video);
+
+//             hls.on(Hls.Events.MANIFEST_PARSED, () => {
+//                 console.log("✅ HLS manifest loaded:", url);
+//                 // video.src = url
+//             });
+
+//             hls.on(Hls.Events.ERROR, (event, data) => {
+
+//                 console.log("❌ HLS ERROR");
+//                 console.log("Type:", data.type);
+//                 console.log("Details:", data.details);
+//                 console.log("Fatal:", data.fatal);
+//                 console.log("URL:", data.url);
+// // video.src = url
+//             });
+
+//         }
+
+//         // Native HLS support (mainly Safari)
+//         else if (
+//             video.canPlayType("application/vnd.apple.mpegurl")
+//         ) {
+
+//             console.log("Using native HLS");
+
+//             video.src = url;
+//         }
+
+//         return () => {
+
+//             if (hls) {
+//                 hls.destroy();
+//             }
+
+//         };
+
+//     }, [url]);
+
+
+//     return (
+//         <video
+//             ref={videoRef}
+//             controls
+//             autoPlay
+//             muted
+//             playsInline
+//             title="You are watching Live Iptv"
+//             width="600"
+//         />
+
+
+//         // <video
+//         //     ref={videoRef}
+//         //     controls
+//         //    preload="none"
+//         //     muted
+            
+            
+//         //     width="600"
+//         // />
+//     );
+// }
+
+
+
+
+
+
+
+
+
+
+
 import { useEffect, useRef } from "react";
 import Hls from "hls.js";
 
 export default function HLSPlayer({ url }) {
+  const videoRef = useRef(null);
+  const hlsRef = useRef(null);
 
-    const videoRef = useRef(null);
+  useEffect(() => {
+    const video = videoRef.current;
 
-    useEffect(() => {
+    if (!video || !url) {
+      return;
+    }
 
-        const video = videoRef.current;
+    // Destroy previous HLS instance
+    if (hlsRef.current) {
+      hlsRef.current.destroy();
+      hlsRef.current = null;
+    }
 
-        if (!video || !url) return;
+    console.log("🎬 Loading:", url);
 
-        let hls;
+    // =========================================
+    // HLS.JS
+    // =========================================
 
-        if (Hls.isSupported()) {
+    if (Hls.isSupported()) {
+      const hls = new Hls({
+        enableWorker: true,
+        lowLatencyMode: true,
 
-            hls = new Hls();
+        // Useful for live IPTV
+        backBufferLength: 90,
+      });
 
-            hls.loadSource(url);
-            hls.attachMedia(video);
+      hlsRef.current = hls;
 
-            hls.on(Hls.Events.MANIFEST_PARSED, () => {
-                console.log("✅ HLS manifest loaded:", url);
-            });
+      // Load stream
+      const proxyUrl =
+  "https://mynewiptv.netlify.app/.netlify/functions/hls?url=" +
+  encodeURIComponent(url);
 
-            hls.on(Hls.Events.ERROR, (event, data) => {
+hls.loadSource(proxyUrl);
+      hls.loadSource(url);
 
-                console.log("❌ HLS ERROR");
-                console.log("Type:", data.type);
-                console.log("Details:", data.details);
-                console.log("Fatal:", data.fatal);
-                console.log("URL:", data.url);
+      // Attach to video
+      hls.attachMedia(video);
 
-            });
+      // Manifest loaded
+      hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        console.log("✅ HLS manifest loaded");
 
+        video.play().catch((error) => {
+          console.log("Autoplay blocked:", error);
+        });
+      });
+
+      // HLS errors
+      hls.on(Hls.Events.ERROR, (event, data) => {
+        console.error("❌ HLS ERROR");
+        console.error("Type:", data.type);
+        console.error("Details:", data.details);
+        console.error("Fatal:", data.fatal);
+        console.error("URL:", data.url);
+
+        // =====================================
+        // Handle fatal errors
+        // =====================================
+
+        if (data.fatal) {
+          switch (data.type) {
+
+            case Hls.ErrorTypes.NETWORK_ERROR:
+
+              console.log(
+                "🔄 Network error - trying to recover..."
+              );
+
+              hls.startLoad();
+
+              break;
+
+
+            case Hls.ErrorTypes.MEDIA_ERROR:
+
+              console.log(
+                "🔄 Media error - trying to recover..."
+              );
+
+              hls.recoverMediaError();
+
+              break;
+
+
+            default:
+
+              console.log(
+                "❌ Fatal HLS error - destroying player"
+              );
+
+              hls.destroy();
+
+              break;
+          }
         }
+      });
+    }
 
-        // Native HLS support (mainly Safari)
-        else if (
-            video.canPlayType("application/vnd.apple.mpegurl")
-        ) {
+    // =========================================
+    // Native HLS
+    // =========================================
 
-            console.log("Using native HLS");
+    else if (
+      video.canPlayType(
+        "application/vnd.apple.mpegurl"
+      )
+    ) {
+      console.log("🍎 Using native HLS");
 
-            video.src = url;
+      video.src = url;
+
+      video.addEventListener(
+        "loadedmetadata",
+        () => {
+          video.play().catch(() => {});
         }
+      );
+    }
 
-        return () => {
+    // =========================================
+    // HLS NOT SUPPORTED
+    // =========================================
 
-            if (hls) {
-                hls.destroy();
-            }
+    else {
+      console.error(
+        "❌ HLS is not supported by this browser"
+      );
+    }
 
-        };
+    // =========================================
+    // CLEANUP
+    // =========================================
 
-    }, [url]);
+    return () => {
+      console.log("🧹 Cleaning HLS player");
+
+      if (hlsRef.current) {
+        hlsRef.current.destroy();
+        hlsRef.current = null;
+      }
+
+      video.pause();
+      video.removeAttribute("src");
+      video.load();
+    };
+
+  }, [url]);
 
 
-    return (
-        // <video
-        //     ref={videoRef}
-        //     controls
-        //     autoPlay
-        //     muted
-        //     playsInline
-        //     title="You are watching Live Iptv"
-        //     width="600"
-        // />
+  return (
+    <video
+      ref={videoRef}
+      controls
+      preload="none"
+      autoPlay
 
-
-        <video
-            ref={videoRef}
-            controls
-           preload="none"
-            muted
-            
-            
-            width="600"
-        />
-    );
+      muted
+      playsInline
+      title="You are watching Live IPTV"
+      width="600px"
+      style={{
+        maxWidth: "100%",
+        backgroundColor: "black",
+    }}
+    type='video/mpeg'
+    />
+  );
 }

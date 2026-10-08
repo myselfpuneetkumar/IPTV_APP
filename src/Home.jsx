@@ -20,6 +20,7 @@ export default function Home({urls}) {
     const [seachingData, setSearchingData] = useState('')
     const [playControl, setPlayControl] = useState(true)
       const [showHomeLink, setShowHomeLink] = useState(false);
+       const[sortData,setSortData] = useState([]);
 
     // consts [path,setPath] = useState('ok')
     // const[url,setUrl] = useState("http://192.168.183.30:3000/channels")
@@ -31,6 +32,7 @@ export default function Home({urls}) {
     // localStorage.getItem("url")
 // );
     const videoref = useRef(null);
+    let videoref2 = videoref;
 
 
 
@@ -356,6 +358,14 @@ export default function Home({urls}) {
             setChannelLengths(channelData.length);
             setIndexVal(0);
 
+            // Sorting the Response Array and store to SortData Array
+            const sortingData = [...channelData].sort((a, b) =>
+        a.name.localeCompare(b.name) );
+
+    // setChannels(response);
+    setSortData(sortingData);
+
+
             if (channelData.length > 0) {
                 setVideoData(channelData[0].link);
                 setChName(channelData[0].name);
@@ -479,7 +489,8 @@ export default function Home({urls}) {
 
     }
         
-        const filteredChannels = channels.filter((currChannel) => {
+        // const filteredChannels = channels.filter((currChannel) => {
+        const filteredChannels = sortData .filter((currChannel) => {
             const name = currChannel.name ? currChannel.name.toLowerCase() : "";
             const category = currChannel.category ? currChannel.category.toLowerCase() : "";
             return name.includes(seachingData.toLowerCase()) || category.includes(seachingData.toLowerCase());
@@ -593,8 +604,12 @@ useEffect(() => {
                     videoData ? 
                     <div className="vidControls">
                         {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
-                        <video  controls autoPlay height='800px' width="auto" ref={videoref}>
+                        {/* <video  controls autoPlay  height='800px' width="auto" ref={videoref}>
+                        </video> */}
+                        
+                        <video src={videoData} controls autoPlay height='800px'  width="auto" ref={videoref}>
                         </video>
+
                         
 
 
@@ -646,11 +661,11 @@ useEffect(() => {
             {
                 loading ?
 
-                    <div className="bannerList">
+                    <div className="bannerList custom-scroll-container">
                         {
                             filteredChannels && filteredChannels.map((data, index) => {
                                 return (
-                                    <div className="banner">
+                                    <div className="banner ">
                                         <h2>{index+1}</h2>
                                         <img src={data.logo || defImage} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" />
                                         <h2 key={index}> {data.name.length>16?data.name.slice(0,16)+"...":data.name}</h2>

@@ -295,8 +295,8 @@
 //         <>
 //             <h1> Channel List</h1>
 //              <button className="btn"><Link to="/">Back to Home</Link></button>
-            
-           
+
+
 //             {
 //                     channels? <table border="2px solid black">
 //                 <tr><th>Ch.NO</th>
@@ -307,14 +307,14 @@
 //                     <th>Link</th>
 //                     <th>Actions</th>
 //                 </tr>
-           
-               
-               
+
+
+
 //                 {
-                    
+
 //                     channels && channels.map((data,index) => {
 //                         return (
-                            
+
 //                                <tr>
 //                                     <td>{count++}</td>
 //                                     <td>{data.name}</td>
@@ -337,10 +337,10 @@
 //                                         <button onClick={()=>editData(data.id)}>Edit</button>
 //                                     </td>
 //                                     <td>{data.link}</td>
-                                   
+
 //                                 </tr> 
-                                
-                                
+
+
 //                                 )
 //                             }
 //                         )
@@ -348,7 +348,7 @@
 //                 </table>
 //                 : <h1>Unable to connect with server try again later</h1>
 //             }
-            
+
 //         </>
 //     )
 // }
@@ -752,10 +752,14 @@ import HLSPlayer from "./HLSPlayer";
 export default function Modify() {
     const [channels, setChannels] = useState([]);
     const [selectedIds, setSelectedIds] = useState([]);
+    const [sortData, setSortData] = useState([]);
 
     const navigate = useNavigate();
 
-    const url = "http://localhost:3000/channels/";
+    // const url = "http://localhost:3000/channels/";
+    // const url = "http://192.168.17.30:3000/channels";
+    const url = "https://steady-cheesecake-20992f.netlify.app/.netlify/functions/channels";
+
     // "https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Livetv.json
 
     // Get channels
@@ -763,6 +767,13 @@ export default function Modify() {
         let response = await fetch(url);
         response = await response.json();
         setChannels(response);
+
+        const sortingData = [...response].sort((a, b) =>
+            a.name.localeCompare(b.name)
+        );
+
+        setChannels(response);
+        setSortData(sortingData);
     };
 
     useEffect(() => {
@@ -855,6 +866,22 @@ export default function Modify() {
         channelList();
     };
 
+   const editCategory = async (id, category) => {
+    await fetch(url + id, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+            category: category,
+        }),
+    });
+
+    channelList();
+};
+
+
+
     // --------------------------------
     // Edit
     // --------------------------------
@@ -865,36 +892,36 @@ export default function Modify() {
 
     return (
         <>
-           <div style={{position:'sticky',top:'20px'}}> <h1>Channel List</h1>
+            <div style={{ position: 'sticky', top: '-60px' }}> <h1>Channel List</h1>
 
-            <button className="btn">
-                <Link to="/">Back to Home</Link>
-            </button>
+                <button className="btn">
+                    <Link to="/">Back to Home</Link>
+                </button>
 
-            <br />
-            <br />
+                <br />
+                <br />
 
-            {/* Delete Selected Button */}
+                {/* Delete Selected Button */}
 
-            <button
-                onClick={deleteSelected}
-                disabled={selectedIds.length === 0}
-                style={{
-                    backgroundColor:
-                        selectedIds.length > 0
-                            ? "red"
-                            : "gray",
-                    color: "white",
-                    padding: "8px 15px",
-                    border: "none",
-                    cursor:
-                        selectedIds.length > 0
-                            ? "pointer"
-                            : "not-allowed",
-                }}
-            >
-                Delete Selected ({selectedIds.length})
-            </button>
+                <button
+                    onClick={deleteSelected}
+                    disabled={selectedIds.length === 0}
+                    style={{
+                        backgroundColor:
+                            selectedIds.length > 0
+                                ? "red"
+                                : "gray",
+                        color: "white",
+                        padding: "8px 15px",
+                        border: "none",
+                        cursor:
+                            selectedIds.length > 0
+                                ? "pointer"
+                                : "not-allowed",
+                    }}
+                >
+                    Delete Selected ({selectedIds.length})
+                </button>
             </div>
 
             <br />
@@ -910,11 +937,11 @@ export default function Modify() {
 
                             <th>
                                 <input
-                                    type="checkbox" style={{width:'50px',height:'50px'}}
+                                    type="checkbox" style={{ width: '50px', height: '50px' }}
                                     checked={
                                         channels.length > 0 &&
                                         selectedIds.length ===
-                                            channels.length
+                                        channels.length
                                     }
                                     onChange={handleSelectAll}
                                 />
@@ -922,7 +949,7 @@ export default function Modify() {
 
                             <th>Ch.NO</th>
                             <th>Name</th>
-                            <th>Video</th>
+                            <th>Video data link</th>
                             <th>Actions</th>
                             <th>Link</th>
 
@@ -931,7 +958,8 @@ export default function Modify() {
 
                     <tbody>
 
-                        {channels.map((data, index) => (
+                        {/* {channels.map((data, index) => ( */}
+                        {sortData.map((data, index) => (
 
                             <tr key={data.id}>
 
@@ -939,7 +967,7 @@ export default function Modify() {
 
                                 <td>
                                     <input
-                                        type="checkbox" style={{width:'50px',height:'50px'}}
+                                        type="checkbox" style={{ width: '50px', height: '50px' }}
                                         checked={selectedIds.includes(
                                             data.id
                                         )}
@@ -965,9 +993,11 @@ export default function Modify() {
                                         width="300"
                                         height="200"
                                     />
+                                    {/* <HLSPlayer url={data.link} /> */}
 
-                                        {/* <HLSPlayer url={data.link} /> */}
+                                    {/* <HLSPlayer url={data.link} /> */}
                                 </td>
+
 
                                 <td>
 
@@ -991,9 +1021,31 @@ export default function Modify() {
                                     </button>
 
                                 </td>
+                                <td>
+
+
+
+
+                                    <select
+                                        value={data.category}
+                                        onChange={(event) =>
+                                            editCategory(data.id, event.target.value)
+                                        }
+                                    >
+                                        <option value="Movies">Movies</option>
+                                        <option value="Music">Music</option>
+                                        <option value="News">News</option>
+                                        <option value="Sports">Sports</option>
+                                        <option value="Education">Education</option>
+                                        <option value="Cartoon">Cartoon</option>
+                                    </select>
+
+
+                                </td>
+                                <td>{data.category}</td>
 
                                 <td>
-                                    {data.link}
+                                    {data.link.length>50?data.link.slice(0,50)+"...":data.link}
                                 </td>
 
                             </tr>

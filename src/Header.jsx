@@ -8,7 +8,7 @@ import './index.css'
 {/* <Home /> */}
 export default function Header() {
   const[toggle,setToggle] = useState(true)
-  const[name,setName] = useState('')
+  const[name,setName] = useState('User')
   const[age,setAge] = useState('')
   const[url,setUrl] = useState('https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json')
   const[theme,setTheme] = useState('')
@@ -39,8 +39,8 @@ const checkPasscode = ()=>{
   let code = prompt('enter the Passcode')
 
   if(code == '956001'){
-    localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Livetv.json")
-    alert("congratulations.... \nYou Have Successfully Subscribe Your Plan \nPlease don't change server \notherwise you have to enter again the Passcode \nEnjoy......")
+    localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json")
+    alert("congratulations.... \n You Have Successfully Subscribe Your Plan \nPlease don't change server \notherwise you have to enter again the Passcode \nEnjoy......")
      document.querySelector('.popupcontainer').style.display='none'
     navigate('/category')
 
@@ -140,7 +140,7 @@ const showPopup = ()=>{
         {/* <header */}
 
 
-          <h2 style={{ color: 'white' ,width:'400px'}}><span> <img src={'logo.png'} className="logo" height='50px' width="50px" style ={{border:'2px solid transparent ',borderRadius:'50%',marginTop:'2px'}} alt="no image" /></span>Live IPTV <sub style={{ fontSize: '12px' }}>V 2.0.1</sub></h2>
+          <h2 style={{ color: 'white' ,width:'400px'}}><span> <img src={'logo.png'} className="logo" height='50px' width="50px" style ={{border:'2px solid transparent ',borderRadius:'50%',marginTop:'2px'}} alt="no image" /></span>Live IPTV <sub style={{ fontSize: '12px' }}>V 2.0.4</sub></h2>
           <button className="menu" style={{position:'absolute', right:'10px',top:'25px'}} onClick={handleHeader}>{toggle?'X':'☰'}</button>
          
             
@@ -193,16 +193,17 @@ const showPopup = ()=>{
       {/* <option value="http://localhost:3000/">lowqwqwql</option> */}
       {/* <option value="http://localhost:3000/channels">loca</option> */}
       {/* <option value="http://10.188.247.30:3000/channels">on</option> */}
-      <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json
-">Server 1</option>
+      {/* <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json
+">Server 1</option> */}
       <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db_old.json
-">Server 2</option>
+">Server 1</option>
       {/* <option value="https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Livetv.json
 ">Server 4</option> */}
 <option value="https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/India/LiveTV.json">
-    Server 3
+    Server 2
 </option>
 <option value="http://localhost:3000/channels">local</option>
+{/* <option value="http://192.168.17.30:3000/channels">localnew</option> */}
 </select>
 {/* <h2>or</h2> */}
 {/* <input style={{width:'250px'}} type="password" value={passcode} maxLength={6} placeholder="Enter Name" onChange={(e)=>setPasscode(e.target.value)}/><span style={{display:'inline'}}><button onClick={()=>checkPasscode} style={{width:'50px'}}>set</button></span> */}

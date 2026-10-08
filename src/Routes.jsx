@@ -22,7 +22,7 @@ export default function RoutesPath() {
     const[url,setUrl] = useState('')
     console.log(url);
     
-    let version = "2.0.1"
+    let version = "2.0.4"
 
     const [showHomeLink, setShowHomeLink] = useState(false);
 

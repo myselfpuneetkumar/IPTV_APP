@@ -137,7 +137,7 @@ if(url.ok){
 }
     return(
         <>
-        <div style={{width:'100%',backgroundColor:'yellow'}}>
+        <div style={{width:'100%',backgroundColor:''}}>
             <div style={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:'center'}}>
                     <h1>IPTV Categories</h1>
                      

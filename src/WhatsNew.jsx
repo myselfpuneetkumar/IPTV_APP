@@ -47,7 +47,12 @@ export default function WhatsNew(){
             </p>
             <h3>Live IPTV V2.0.4</h3>
             <p>Released on 2 October 2026 <br />
-            fix video layout and width,fix the hls stream for hls and hls native stream files
+            fix video layout and width
+            </p>
+            <h3>Live IPTV V2.0.5</h3>
+            <p>Released on 8 October 2026 <br />
+           Sort the Channels According to A-Z Order <br /> 
+           more Categories are Added
             </p>
 
 

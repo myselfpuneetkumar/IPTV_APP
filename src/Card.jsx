@@ -220,7 +220,7 @@ const watchLive = (localPath, Name, index) => {
 let filteredChannels = channels.filter((currChannel) => {
   const name = currChannel.name ? currChannel.name.toLowerCase() : "";
   const category = currChannel.category ? currChannel.category.toLowerCase() : "";
-  return category.includes(filteredCategory);
+  return category.includes(filteredCategory) || name.includes(filteredCategory) ;
 });
     return (
 
@@ -229,16 +229,16 @@ let filteredChannels = channels.filter((currChannel) => {
     <>
         
 
-<div style={{border:'2px solid black',margin:'0px'}}>
+<div style={{border:'2px solid black',margin:'0px', cursor:'auto'}}>
 <div className="cardVideo" >
-    <h1 style={{position:'sticky',top:'60px'}}>{filteredCategory.toUpperCase()}</h1>
+    <h1 style={{position:'sticky',top:'0px' ,fontSize:'30px', margin:'0',padding:'0px'}}>{filteredCategory.toUpperCase()}</h1>
     
 
  {
                 // videoData.endsWith('.m3' || videoData.endsWith('.m3u8')) ?
                 videoData ?
                     // videoData ? 
-                    <div className="vidControls" >
+                    <div className="vidControls">
                         {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
                         {/* <video src={videoData} controls autoPlay height="auto" width="auto" ref={videoref}>
                         </video> */}
@@ -273,19 +273,19 @@ let filteredChannels = channels.filter((currChannel) => {
             }
     
     </div>
- <div className="bannerList" >
+ <div className="bannerList cardBannerList custom-scroll-container" >
          {
    
                             filteredChannels && filteredChannels.map((data, index) => {
                                 return (
-                                    <div className="banner">
-                                        <h2>{index+1}</h2>
-                                        <img src={data.logo || defImage} onError={(e) => {e.target.src = defImage;}} alt="banner"  height="100px" width="100px" />
-                                        <h1 key={index} > {data.name.length > 20 ? data.name.slice(0,20)+"...":data.name}</h1>
-                                        <h2>Category:{data.category}</h2>
-                                        {/* <h2>Type:<br />{data.type}</h2> */}
+                                    <div className="banner cardBanner">
+                                        <h2 className="cardheading" style={{width:''}}>{index+1}</h2>
+                                        <img className="cardImg" src={data.logo || defImage} onError={(e) => {e.target.src = defImage;}} alt="banner"  height="100px" width="100px" />
+                                        <h1 className="cardheading" key={index} > {data.name.length > 20 ? data.name.slice(0,20)+"...":data.name}</h1>
+                                        <h2 className="cardheading">Category:{data.category}</h2>
+                                        <h2 className="cardheading">Type:<br />{data.type}</h2>
                                         <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}>          <Link style={{color:"black"}}to={data.link} target="_blank"> <img src={'./public/next_page.png'} alt="copy" height="18px" width="18px" title="Watch  link in new tab" /></Link></button>
-                          <button onClick={() => watchLive(data.link, data.name, index)}><img src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
+                          <button onClick={() => watchLive(data.link, data.name, index)}><img className="cardImg" src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
 
 
                                     </div>
