@@ -45,6 +45,12 @@ const checkPasscode = ()=>{
     navigate('/category')
 
   }
+  else if(code == 'DLNA'){
+     localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Personal.json")
+    alert("congratulations.... \n You Are under Premium mode \nEnjoy......")
+     document.querySelector('.popupcontainer').style.display='none'
+    navigate('/category')
+  }
   else{
     alert('please enter correct Passcode')
   }
@@ -204,6 +210,7 @@ const showPopup = ()=>{
 </option>
 <option value="http://localhost:3000/channels">local</option>
 {/* <option value="http://192.168.17.30:3000/channels">localnew</option> */}
+<option value="http://192.168.97.30:3000/channels">localnew</option>
 </select>
 {/* <h2>or</h2> */}
 {/* <input style={{width:'250px'}} type="password" value={passcode} maxLength={6} placeholder="Enter Name" onChange={(e)=>setPasscode(e.target.value)}/><span style={{display:'inline'}}><button onClick={()=>checkPasscode} style={{width:'50px'}}>set</button></span> */}

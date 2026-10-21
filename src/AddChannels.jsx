@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
 
 export default function AddChannels(){
@@ -8,8 +8,10 @@ export default function AddChannels(){
     const[category,setCategory]=useState();
     const[type,setType]=useState();
     const[link,setLink]=useState();
+        const [url,setUrl] = useState(localStorage.getItem('paths'));
+
     async function addData(){
-        const url = "http://localhost:3000/channels"
+        // const url = "http://localhost:3000/channels"
         let response = await fetch(url,{
             method:'post',
             body:JSON.stringify({name,logo,category,type,link})
@@ -20,6 +22,10 @@ export default function AddChannels(){
             await alert('Add Successfully');
         }
     }
+    useEffect(()=>{
+        setUrl(localStorage.getItem('paths'));
+
+    },[])
     return(
         <>
         <h1>Add Details</h1>
@@ -39,6 +45,7 @@ export default function AddChannels(){
                     <option name="Education" id="">Education </option>
                     <option name="Serials" id="">Serials </option>
                     <option name="Cartoon" id="">Cartoon </option>
+                    <option name="Kids" id="">Kids </option>
                 </select>
            <label htmlFor="type"> Type: </label><select value={type} placeholder="type" onChange={(event)=>setType(event.target.value)} name="type">
                 <option name="Free" id="">Free </option>

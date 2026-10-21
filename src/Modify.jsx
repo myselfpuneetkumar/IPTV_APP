@@ -753,12 +753,14 @@ export default function Modify() {
     const [channels, setChannels] = useState([]);
     const [selectedIds, setSelectedIds] = useState([]);
     const [sortData, setSortData] = useState([]);
+    // const [url,setUrl] = useState(localStorage.getItem('paths'));
 
     const navigate = useNavigate();
 
+    const url = "http://localhost:3000/channels/";
     // const url = "http://localhost:3000/channels/";
     // const url = "http://192.168.17.30:3000/channels";
-    const url = "https://steady-cheesecake-20992f.netlify.app/.netlify/functions/channels";
+    // const url = "https://steady-cheesecake-20992f.netlify.app/.netlify/functions/channels";
 
     // "https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Livetv.json
 
@@ -985,14 +987,14 @@ export default function Modify() {
                                     {data.name}
                                 </td>
 
-                                <td>
-                                    <video
+                                <td>video
+                                    {/* <video
                                         src={data.link}
                                         controls
                                         preload="none"
                                         width="300"
                                         height="200"
-                                    />
+                                    /> */}
                                     {/* <HLSPlayer url={data.link} /> */}
 
                                     {/* <HLSPlayer url={data.link} /> */}
@@ -1032,6 +1034,7 @@ export default function Modify() {
                                             editCategory(data.id, event.target.value)
                                         }
                                     >
+                                        <option value="">select</option>
                                         <option value="Movies">Movies</option>
                                         <option value="Music">Music</option>
                                         <option value="News">News</option>

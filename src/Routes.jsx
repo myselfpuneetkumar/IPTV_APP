@@ -28,19 +28,19 @@ export default function RoutesPath() {
 
 
 
-const [selectedFruit, setSelectedFruit] = useState("apple");
+// const [selectedFruit, setSelectedFruit] = useState("apple");
 
-  // 2. Define an options array to keep the data clean
-  const fruitOptions = [
-    { value: "apple", label: "🍎 Apple" },
-    { value: "banana", label: "🍌 Banana" },
-    { value: "orange", label: "🍊 Orange" },
-  ];
+//   // 2. Define an options array to keep the data clean
+//   const fruitOptions = [
+//     { value: "apple", label: "🍎 Apple" },
+//     { value: "banana", label: "🍌 Banana" },
+//     { value: "orange", label: "🍊 Orange" },
+//   ];
 
   // 3. Handler function to update state when the child triggers an event
-  const handleFruitChange = (newValue) => {
-    setSelectedFruit(newValue);
-  };
+//   const handleFruitChange = (newValue) => {
+//     setSelectedFruit(newValue);
+//   };
 
 
     const urlList = [
