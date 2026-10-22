@@ -54,6 +54,11 @@ export default function WhatsNew(){
            Sort the Channels According to A-Z Order <br /> 
            more Categories are Added
             </p>
+            <h3>Live IPTV V2.0.6</h3>
+            <p>Released on 22 October 2026 <br />
+           Fix the Extra font,Tracking the current Channel with now play image(gif) <br /> 
+           more Categories are Added
+            </p>
 
 
 

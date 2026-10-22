@@ -607,7 +607,7 @@ useEffect(() => {
                         {/* <video  controls autoPlay  height='800px' width="auto" ref={videoref}>
                         </video> */}
                         
-                        <video src={videoData} controls autoPlay height={'800px'}  width="auto" ref={videoref}>
+                        <video src={videoData} controls autoPlay poster={'./poster.png'} height={'800px'}  width="auto" ref={videoref}>
                         </video>
 
                         
@@ -648,10 +648,10 @@ useEffect(() => {
 
  
 
-             <div style={{ display: 'flex', justifyContent: 'space-around',display:"" }}  >
+             {/* <div style={{ display: 'flex', justifyContent: 'space-around',display:"" }}  >
                 <button className="btn"> <Link to="/addchannels">Add Channels</Link></button>
                 <button className="btn"><Link to="/modify">Modify List</Link></button>
-                 </div>
+                 </div> */}
             {
                 channelLength ? <h1>Total Available Channels:{channelLength}</h1> : <h1>Total Available Channels:{channelLength}</h1>
             }
@@ -671,7 +671,7 @@ useEffect(() => {
                                             // videoData == data.link? <img src={'./plays.gif'} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" /> :
                                             indexVal+1 == index+1 && videoData == data.link? <img src={'./plays.gif'} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" /> :
                                         
-                                        <img src={data.logo || defImage} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" />
+                                        <img className="bannerimg"src={data.logo || defImage} alt="" onError={(e) => {e.target.src = defImage;}} height="100px" width="100px" />
                             }
                                         <h2 key={index}> {data.name.length>16?data.name.slice(0,16)+"...":data.name}</h2>
                                         <h1 >Category :{data.category}</h1>

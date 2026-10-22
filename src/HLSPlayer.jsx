@@ -251,6 +251,68 @@ hls.loadSource(proxyUrl);
   }, [url]);
 
 
+
+   useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.code === "Space") {
+        // Prevent page scrolling
+        event.preventDefault();
+
+        const video = videoRef.current;
+        if (!video) return;
+
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      }
+
+      
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
+
+
+  useEffect(() => {
+  const video = videoRef.current;
+
+  if (!video || !("mediaSession" in navigator)) return;
+
+  navigator.mediaSession.setActionHandler("play", () => {
+    video.play().catch(console.error);
+  });
+
+  navigator.mediaSession.setActionHandler("pause", () => {
+    video.pause();
+  });
+
+  navigator.mediaSession.setActionHandler("nexttrack", () => {
+    video.currentTime += 10;
+  });
+
+  navigator.mediaSession.setActionHandler("previoustrack", () => {
+    video.currentTime = Math.max(0, video.currentTime - 10);
+  });
+
+  return () => {
+    ["play", "pause", "nexttrack", "previoustrack"].forEach(
+      (action) => {
+        try {
+          navigator.mediaSession.setActionHandler(action, null);
+        } catch {}
+      }
+    );
+  };
+}, []);
+
+
   return (
     <video
       ref={videoRef}

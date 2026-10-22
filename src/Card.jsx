@@ -281,9 +281,9 @@ let filteredChannels = channels.filter((currChannel) => {
                                     <div className="banner cardBanner">
                                         <h2 className="cardheading" style={{width:''}}>{index+1}</h2>
                                         <img className="cardImg" src={data.logo || defImage} onError={(e) => {e.target.src = defImage;}} alt="banner"  height="100px" width="100px" />
-                                        <h1 className="cardheading" key={index} > {data.name.length > 20 ? data.name.slice(0,20)+"...":data.name}</h1>
-                                        <h2 className="cardheading">Category:{data.category}</h2>
-                                        <h2 className="cardheading">Type:<br />{data.type}</h2>
+                                        <h1 className="cardheading" key={index} > {data.name.length > 20 ? data.name.slice(0,20)+"...":data.name} | </h1>
+                                        <h2 className="cardheading">Category:{data.category.length > 10?data.category.slice(0,10)+"...":data.category}</h2>
+                                        {/* <h2 className="cardheading">Type:<br />{data.type}</h2> */}
                                         <button style={{ cursor:"pointer",backgroundColor:"transparent",border:"none"}}>          <Link style={{color:"black"}}to={data.link} target="_blank"> <img src={'./public/next_page.png'} alt="copy" height="18px" width="18px" title="Watch  link in new tab" /></Link></button>
                           <button onClick={() => watchLive(data.link, data.name, index)}><img className="cardImg" src={"public/Live.jpg"} alt="NO Image" height="auto" width="50px" title="Click to watch Live" /></button>
 

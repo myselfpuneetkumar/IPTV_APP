@@ -330,8 +330,9 @@ video{
   border: 1px double rgb(128, 0, 115);
   border-radius: 6px;
   max-height: 340px;
-  height: 40vh;
-  width: 100%;
+  /* max-height: 40vh; */
+  height: auto;
+  /* width: 100%; */
     
 }
 
@@ -486,6 +487,7 @@ cursor: pointer;
 }
 video{
   width: 80vw;
+  height: 25vh;
 
 }
 
@@ -513,6 +515,11 @@ video{
 .banner  img{
   height: 20px;
   width: 20px;
+  
+}
+.bannerimg{
+  height: 40px;
+  width: 40px;
   
 }
 .banner h1,h2{

@@ -1038,9 +1038,14 @@ export default function Modify() {
                                         <option value="Movies">Movies</option>
                                         <option value="Music">Music</option>
                                         <option value="News">News</option>
+                                        <option value="Serial">Serial</option>
+                                        <option value="Devotional">Devotional</option>
                                         <option value="Sports">Sports</option>
+                                        <option value="Entertainment">Entertainment</option>
                                         <option value="Education">Education</option>
                                         <option value="Cartoon">Cartoon</option>
+                                        <option value="Kids">Kids</option>
+                                        <option value="Food">Food</option>
                                     </select>
 
 

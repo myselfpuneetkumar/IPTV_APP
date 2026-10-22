@@ -6,7 +6,7 @@ import './index.css'
 
 
 {/* <Home /> */}
-export default function Header() {
+export default function Header({version}) {
   const[toggle,setToggle] = useState(true)
   const[name,setName] = useState('User')
   const[age,setAge] = useState('')
@@ -45,7 +45,7 @@ const checkPasscode = ()=>{
     navigate('/category')
 
   }
-  else if(code == 'DLNA'){
+  else if(code == 'Iptvpro'){
      localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Personal.json")
     alert("congratulations.... \n You Are under Premium mode \nEnjoy......")
      document.querySelector('.popupcontainer').style.display='none'
@@ -146,7 +146,7 @@ const showPopup = ()=>{
         {/* <header */}
 
 
-          <h2 style={{ color: 'white' ,width:'400px'}}><span> <img src={'logo.png'} className="logo" height='50px' width="50px" style ={{border:'2px solid transparent ',borderRadius:'50%',marginTop:'2px'}} alt="no image" /></span>Live IPTV <sub style={{ fontSize: '12px' }}>V 2.0.4</sub></h2>
+          <h2 style={{ color: 'white' ,width:'400px'}}><span> <img src={'logo.png'} className="logo" height='50px' width="50px" style ={{border:'2px solid transparent ',borderRadius:'50%',marginTop:'2px'}} alt="no image" /></span>Live IPTV <sub style={{ fontSize: '12px' }}>v {version}</sub></h2>
           <button className="menu" style={{position:'absolute', right:'10px',top:'25px'}} onClick={handleHeader}>{toggle?'X':'☰'}</button>
          
             
