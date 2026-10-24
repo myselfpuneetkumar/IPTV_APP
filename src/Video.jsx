@@ -79,7 +79,8 @@ encodeURIComponent(
     </VideoPlayer> */}
 video
     <video  height='100px' width='400px' controls poster={'/logo.png'}>
-    <source src="http://51.75.127.199:3141/andxplorehd/index.m3u8"  /></video>
+    {/* <source src="http://51.75.127.199:3141/andxplorehd/index.m3u8"  /></video> */}
+    <source src="http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_hx07P1jJU2-RGCFShsPRKq4"  /></video>
 
      <video
             ref={videoRef}

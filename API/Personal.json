@@ -1255,6 +1255,31 @@
       "category": "Serials",
       "link": "http://103.135.253.32:8080/Color-HD/index.m3u8",
       "id": "oT773V-rvOU"
+    },
+    {
+      "name": "Colors HD no",
+      "category": "Serials",
+      "link": "http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_hx07P1jJU2-RGCFShsPRKq4",
+      "id": "oT773V-rvOU"
+    },
+    {
+      "name": "Colors Rishtey",
+      "category": "Serials",
+      "link": "http://103.172.29.30:9991/stream/channelid/1367268710",
+      "id": "oT773V-rvOU"
+    },
+    {
+      "name": "&pictures",
+      "category": "Serials",
+      "link": "http://neorcqds.top:8080/4241763327415375/f206ced7f9fb/53371",
+      "id": "oT773V-rvOU"
+    }
+    ,
+    {
+      "name": "colors cineplex superhit",
+      "category": "Serials",
+      "link": "http://live.balajibroadband.com:3500/live/1450.m3u8",
+      "id": "oT773V-rvOU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

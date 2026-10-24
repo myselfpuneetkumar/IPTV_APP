@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import './index.css'
+
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 // import {channelList} from "./Home";
 
 
@@ -33,10 +36,26 @@ export default function Header({version}) {
     }
   }
 
-const checkPasscode = ()=>{
+const checkPasscode = async()=>{
   // e.preventDefault();
 
-  let code = prompt('enter the Passcode')
+  // let code = prompt('enter the Passcode')
+  const result = await Swal.fire({
+  title: "Enter the Passcode",
+  input: "password",
+  inputPlaceholder: "Enter your passcode",
+  showCancelButton: true,
+  confirmButtonText: "Submit",
+  cancelButtonText: "Cancel",
+  confirmButtonColor: "#16a34a",
+});
+
+if (result.isConfirmed) {
+  let code = result.value;
+  console.log(code);
+
+  // Use your passcode here
+
 
   if(code == '956001'){
     localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json")
@@ -47,13 +66,24 @@ const checkPasscode = ()=>{
   }
   else if(code == 'Iptvpro'){
      localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Personal.json")
-    alert("congratulations.... \n You Are under Premium mode \nEnjoy......")
+
+      Swal.fire({
+      title: "Success!",
+      text: `congratulations.... \n You Are under Premium mode \nEnjoy......`,
+      icon: "success",
+      confirmButtonText: "OK",
+    });
+    // alert("congratulations.... \n You Are under Premium mode \nEnjoy......")
      document.querySelector('.popupcontainer').style.display='none'
     navigate('/category')
   }
   else{
-    alert('please enter correct Passcode')
+    // alert('please enter correct Passcode')
+    Swal.fire("Please enter correct Passcode")
+   
+
   }
+}
 }
 
 
@@ -68,7 +98,14 @@ localStorage.setItem('paths',url)
   navigate('/category');
 
 
-  alert('submit Successfully')
+  // alert('submit Successfully')
+   Swal.fire({
+ title: "Success!",
+      text: "Submit successfully!",
+      icon: "success",
+      confirmButtonText: "OK",
+});
+
 
   // if(passcode == '1234'){
   //   // setUrl("http://localhost:3000/channels")
@@ -186,6 +223,9 @@ const showPopup = ()=>{
       <option value="greenish">Greenish</option>
 <option value="colourful">
     colourful
+</option>
+<option value="light">
+    Light
 </option>
 </select>
 
