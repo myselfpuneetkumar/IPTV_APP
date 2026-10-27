@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 // import Video from "./Video";
 import defImage from "../public/play.png"
 import Hls from "hls.js";
-
+import Swal from "sweetalert2";
+import 'sweetalert2/themes/bootstrap-5.css'
 
 
 
@@ -602,7 +603,7 @@ useEffect(() => {
                 // videoData.endsWith('.m3' || videoData.endsWith('.m3u8')) ?
                 // videoData || videoData.endsWith('.m3u8')?
                     videoData ? 
-                    <div className="vidControls">
+                    <div className="vidControls" >
                         {/* <video src={videoData ? videoData : null} controls autoPlay height="auto" width="auto" ref={videoref}> */}
                         {/* <video  controls autoPlay  height='800px' width="auto" ref={videoref}>
                         </video> */}
@@ -617,10 +618,10 @@ useEffect(() => {
                         <h2 style={{ margin: '1px' }}>{chName?chName:'Testing'} |  <span>CH-{indexVal+1}</span> <span>                                       
                              <button style={{ cursor:"pointer",height:'20px',width:'20px', backgroundColor:'transparent', border:'none'}} onClick={()=>copyPath(videoData)} > <img src={'./public/copy.jpg'} alt="copy" style={{ cursor:"pointer",height:'25px',width:'25px', marginTop:'20px'}} title="copy" /> </button></span> </h2> 
 <div>
-                            <button onClick={prevPlay}><img src="./public/prev.png" alt="" title="Previous Play"/></button>
-                            <button onClick={pausePlay}>{playControl ? <img src="./public/play.png" alt="no image" title="Pause/Play"  /> : <img src="./public/pause.png" alt="" />}</button>
+                            <button accessKey="j" onClick={prevPlay}><img src="./public/prev.png" alt="" title="Previous Play"/></button>
+                            <button accessKey="k" onClick={pausePlay}>{playControl ? <img src="./public/play.png" alt="no image" title="Pause/Play"  /> : <img src="./public/pause.png" alt="" />}</button>
 
-                            <button onClick={nextPlay}><img src="./public/nextplay.png" alt="" title="Play Next" /></button>
+                            <button accessKey="l" onClick={nextPlay}><img src="./public/nextplay.png" alt="" title="Play Next" /></button>
 
                         </div>
                     </div>
@@ -648,10 +649,10 @@ useEffect(() => {
 
  
 
-             {/* <div style={{ display: 'flex', justifyContent: 'space-around',display:"" }}  >
+             <div style={{ display: 'flex', justifyContent: 'space-around',display:"" }}  >
                 <button className="btn"> <Link to="/addchannels">Add Channels</Link></button>
                 <button className="btn"><Link to="/modify">Modify List</Link></button>
-                 </div> */}
+                 </div>
             {
                 channelLength ? <h1>Total Available Channels:{channelLength}</h1> : <h1>Total Available Channels:{channelLength}</h1>
             }

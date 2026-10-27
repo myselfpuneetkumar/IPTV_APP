@@ -59,27 +59,56 @@ if (result.isConfirmed) {
 
   if(code == '956001'){
     localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/db.json")
-    alert("congratulations.... \n You Have Successfully Subscribe Your Plan \nPlease don't change server \notherwise you have to enter again the Passcode \nEnjoy......")
-     document.querySelector('.popupcontainer').style.display='none'
+    document.querySelector('.popupcontainer').style.display='none'
+    // alert("congratulations.... \n You Have Successfully Subscribe Your Plan \nPlease don't change server \notherwise you have to enter again the Passcode \nEnjoy......")
+       Swal.fire({
+      position: "top",
+      icon: "success",
+      text: "congratulations....  You Have Successfully Subscribe Your Plan Enjoy......",
+      title: "Your are now a premium User",
+      showConfirmButton: true,
+      confirmButtonText: "OK",
+      timer: 8500
+});
     navigate('/category')
 
   }
   else if(code == 'Iptvpro'){
      localStorage.setItem('paths',"https://raw.githubusercontent.com/myselfpuneetkumar/IPTV_APP/main/API/Personal.json")
 
-      Swal.fire({
-      title: "Success!",
-      text: `congratulations.... \n You Are under Premium mode \nEnjoy......`,
+    //   Swal.fire({
+    //   title: "Success!",
+    //   icon: "success",
+    //   confirmButtonText: "OK",
+    // });
+    
+    
+    Swal.fire({
+      position: "top",
       icon: "success",
+      text: `congratulations.... \n You Are under Premium mode \nEnjoy......`,
+      title: "Your are a Pro plus user",
+      showConfirmButton: true,
       confirmButtonText: "OK",
-    });
+      timer: 7500
+});
     // alert("congratulations.... \n You Are under Premium mode \nEnjoy......")
      document.querySelector('.popupcontainer').style.display='none'
     navigate('/category')
   }
   else{
     // alert('please enter correct Passcode')
-    Swal.fire("Please enter correct Passcode")
+    Swal.fire({
+      position: "top",
+      icon: "error",
+      text: "Enter the Passcode given by Administrator",
+      title: "You Entererd Incorrect Passcode ",
+      showConfirmButton: true,
+      theme:'auto',
+      confirmButtonText: "OK",
+      timer: 6500
+});
+
    
 
   }
